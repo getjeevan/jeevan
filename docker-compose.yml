@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  vpnwatch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vpnwatch
+    ports:
+      - "3225:3225"
+    environment:
+      - NODE_ENV=production
+      - PORT=3225
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3225/api/stats', (r) => process.exit(r.statusCode === 200 ? 0 : 1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  docker-cleanup:
+    image: docker:24-cli
+    container_name: docker-cleanup
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        echo "Docker cleanup service started"
+        while true; do
+          echo "Running cleanup at $$(date)"
+          docker builder prune -a -f --filter "until=72h" 2>/dev/null || true
+          docker image prune -a -f --filter "until=168h" 2>/dev/null || true
+          echo "Cleanup complete. Sleeping for 24 hours..."
+          sleep 86400
+        done

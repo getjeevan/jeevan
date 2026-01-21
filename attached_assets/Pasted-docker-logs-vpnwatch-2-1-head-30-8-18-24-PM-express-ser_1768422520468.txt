@@ -1,0 +1,32 @@
+docker logs vpnwatch 2>&1 | head -30
+8:18:24 PM [express] serving on port 3225
+8:18:54 PM [express] GET /api/stats 200 in 4ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:19:24 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:19:54 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:20:24 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:20:54 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:21:24 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:21:54 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:22:24 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:22:54 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:23:25 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:23:55 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:24:25 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:24:55 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:25:25 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:25:55 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:26:25 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:26:55 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:27:25 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:27:55 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:28:25 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:28:46 PM [express] GET /api/stats 200 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:28:46 PM [express] GET /api/tunnels 200 in 1ms :: []
+8:28:47 PM [express] GET /api/stats 304 in 1ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+8:28:47 PM [express] GET /api/tunnels 304 in 0ms :: []
+8:28:47 PM [express] GET /api/firewalls 200 in 0ms :: []
+8:28:56 PM [express] GET /api/stats 200 in 0ms :: {"totalTunnels":0,"upTunnels":0,"downTunnels":0,"flappingTunnels":0,"totalFirewalls":0,"connectedFirewalls":0}
+Polling firewall: TEN-XND-Vendor-VPN-PA-Fw1 (10.36.48.95)
+(node:1) Warning: Setting the NODE_TLS_REJECT_UNAUTHORIZED environment variable to '0' makes TLS connections and HTTPS requests insecure by disabling certificate verification.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[root@TENXSD-NW-AIOPS VPN-Monitor]# 

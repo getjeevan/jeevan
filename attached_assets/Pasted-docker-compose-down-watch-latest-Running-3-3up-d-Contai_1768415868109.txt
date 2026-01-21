@@ -1,0 +1,35 @@
+docker compose down
+watch:latest .
+[+] Running 3/3up -d
+ ✔ Container docker-cleanup     Removed                                                                              10.2s 
+ ✔ Container vpnwatch           Removed                                                                              10.3s 
+ ✔ Network vpn-monitor_default  Removed                                                                               0.2s 
+[root@TENXSD-NW-AIOPS VPN-Monitor]# docker build --no-cache -t vpnwatch:latest .
+[+] Building 23.8s (14/14) FINISHED                                                                         docker:default
+ => [internal] load build definition from Dockerfile                                                                  0.0s
+ => => transferring dockerfile: 1.03kB                                                                                0.0s
+ => [internal] load metadata for docker.io/library/node:20-bullseye-slim                                              0.3s
+ => [auth] library/node:pull token for registry-1.docker.io                                                           0.0s
+ => [internal] load .dockerignore                                                                                     0.0s
+ => => transferring context: 234B                                                                                     0.0s
+ => [runtime 1/5] FROM docker.io/library/node:20-bullseye-slim@sha256:65acdadd2801b551b7bdb90e080cf9208edc161cb8d426  0.0s
+ => [internal] load build context                                                                                     0.0s
+ => => transferring context: 24.01kB                                                                                  0.0s
+ => CACHED [runtime 2/5] WORKDIR /app                                                                                 0.0s
+ => [runtime 3/5] COPY package*.json ./                                                                               0.1s
+ => [builder 4/6] RUN npm ci                                                                                         13.1s
+ => [runtime 4/5] RUN npm ci --omit=dev && npm cache clean --force                                                   13.1s
+ => [builder 5/6] COPY . .                                                                                            0.1s
+ => [builder 6/6] RUN npm run build                                                                                   7.1s 
+ => [runtime 5/5] COPY --from=builder /app/dist ./dist                                                                0.1s 
+ => exporting to image                                                                                                2.3s 
+ => => exporting layers                                                                                               2.2s 
+ => => writing image sha256:95f84036d42a0d32a8ae393734e67d79c90062e84d0def1ae96f7f3d92382a27                          0.0s 
+ => => naming to docker.io/library/vpnwatch:latest                                                                    0.0s 
+[root@TENXSD-NW-AIOPS VPN-Monitor]# docker compose up -d                                                                   
+[+] Running 3/3                                                                                                            
+ ✔ Network vpn-monitor_default  Created                                                                               0.3s 
+ ✔ Container docker-cleanup     Started                                                                               0.4s 
+ ✔ Container vpnwatch           Started                                                                               0.4s 
+[root@TENXSD-NW-AIOPS VPN-Monitor]# docker compose logs vpnwatch | grep "\[DEBUG\]" | head -100
+[root@TENXSD-NW-AIOPS VPN-Monitor]# 

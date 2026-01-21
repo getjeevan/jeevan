@@ -1,0 +1,58 @@
+ docker build --no-cache -t vpnwatch:latest .
+[+] Building 11.6s (9/12)                                                                                   docker:default
+ => [internal] load build definition from Dockerfile                                                                  0.0s
+ => => transferring dockerfile: 1.03kB                                                                                0.0s
+ => [internal] load metadata for docker.io/library/node:20-bullseye-slim                                              0.2s
+ => [internal] load .dockerignore                                                                                     0.0s
+ => => transferring context: 234B                                                                                     0.0s
+ => [builder 1/6] FROM docker.io/library/node:20-bullseye-slim@sha256:65acdadd2801b551b7bdb90e080cf9208edc161cb8d426  0.0s
+ => [internal] load build context                                                                                     0.0s
+ => => transferring context: 12.47kB                                                                                  0.0s
+ => CACHED [builder 2/6] WORKDIR /app                                                                                 0.0s
+ => [builder 3/6] COPY package*.json ./                                                                               0.1s
+ => ERROR [builder 4/6] RUN npm ci                                                                                   10.7s
+ => CANCELED [runtime 4/5] RUN npm ci --omit=dev && npm cache clean --force                                          11.1s
+------                                                                                                                     
+ > [builder 4/6] RUN npm ci:                                                                                               
+10.38 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/drizzle-orm/libsql/sqlite3/index.js.map'                                                                                                                  
+10.38 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/wallet-minimal.js'                                                                                                            
+10.45 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/align-center-vertical.js.map'                                                                                                 
+10.45 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/date-fns/locale/lb/_lib/localize.js'                                                                                                                      
+10.45 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/date-fns/locale/ko/_lib/localize.js'                                                                                                                      
+10.49 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/date-fns/locale/uz/_lib/localize.js'
+10.49 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/ampersand.js.map'
+10.49 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/anvil.js.map'
+10.50 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/drizzle-orm/logger.cjs.map'
+10.50 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/app-window.js.map'
+10.50 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/drizzle-orm/logger.js.map'
+10.51 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/date-fns/locale/ar-MA/_lib/match.js'
+10.51 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/date-fns/locale/ar-SA/_lib/match.js'
+10.51 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/archive-restore.js.map'
+10.51 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/drizzle-orm/pg-core/columns/macaddr.cjs.map'
+10.52 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/date-fns/locale/ar-TN/_lib/match.js'
+10.52 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/archive-x.js.map'
+10.52 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/archive.js.map'
+10.52 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/drizzle-orm/pg-core/columns/macaddr.js.map'
+10.52 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/area-chart.js.map'
+10.52 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/date-fns/locale/ar/_lib/match.js'
+10.52 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/date-fns/locale/az/_lib/match.js'
+10.52 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/drizzle-orm/pg-core/columns/macaddr8.cjs.map'
+10.53 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/date-fns/locale/be-tarask/_lib/match.js'
+10.53 npm warn tar TAR_ENTRY_ERROR ENOSPC: no space left on device, open '/app/node_modules/lucide-react/dist/esm/icons/armchair.js.map'
+10.53 npm notice
+10.53 npm notice New major version of npm available! 10.8.2 -> 11.7.0
+10.53 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+10.53 npm notice To update run: npm install -g npm@11.7.0
+10.53 npm notice
+10.53 npm error A complete log of this run can be found in: /root/.npm/_logs/2026-01-14T15_49_19_686Z-debug-0.log
+------
+Dockerfile:10
+--------------------
+   8 |     
+   9 |     # Install all dependencies (including dev)
+  10 | >>> RUN npm ci
+  11 |     
+  12 |     # Copy source code
+--------------------
+ERROR: failed to solve: process "/bin/sh -c npm ci" did not complete successfully: exit code: 1
+[root@TENXSD-NW-AIOPS VPN-Monitor]# 

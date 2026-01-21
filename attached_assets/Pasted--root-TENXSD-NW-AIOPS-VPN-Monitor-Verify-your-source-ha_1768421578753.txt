@@ -1,0 +1,178 @@
+
+[root@TENXSD-NW-AIOPS VPN-Monitor]# # Verify your source has the new code
+[root@TENXSD-NW-AIOPS VPN-Monitor]# head -100 server/paloalto-api.ts | grep -A 2 "getIPSecTunnels"
+    async getIPSecTunnels(): Promise<VPNTunnel[]> {
+    console.log("=== VPNWATCH NEW CODE VERSION 2.0 RUNNING ===");
+    const tunnels: VPNTunnel[] = [];
+[root@TENXSD-NW-AIOPS VPN-Monitor]# 
+[root@TENXSD-NW-AIOPS VPN-Monitor]# # Rebuild with BuildKit disabled
+[root@TENXSD-NW-AIOPS VPN-Monitor]# DOCKER_BUILDKIT=0 docker build --no-cache -t vpnwatch:latest .
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            BuildKit is currently disabled; enable it by removing the DOCKER_BUILDKIT=0
+            environment-variable.
+
+Sending build context to Docker daemon  3.231MB
+Step 1/16 : FROM node:20-bullseye-slim AS builder
+20-bullseye-slim: Pulling from library/node
+bd1b97a95a10: Pull complete 
+323680ab0dae: Pull complete 
+02b6490a5a22: Pull complete 
+59bcd15baf4d: Pull complete 
+41d5fe97ddd9: Pull complete 
+Digest: sha256:d6c3903e556d4161f63af4550e76244908b6668e1a7d2983eff4873a0c2b0413
+Status: Downloaded newer image for node:20-bullseye-slim
+ ---> a1b9a46eb4fd
+Step 2/16 : WORKDIR /app
+ ---> Running in f48b9321eae3
+ ---> Removed intermediate container f48b9321eae3
+ ---> cb55a5622300
+Step 3/16 : COPY package*.json ./
+ ---> d0510f449472
+Step 4/16 : RUN npm ci
+ ---> Running in c8632ee7aa13
+
+added 478 packages, and audited 479 packages in 9s
+
+67 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+ ---> Removed intermediate container c8632ee7aa13
+ ---> f13df52c57ed
+Step 5/16 : COPY . .
+ ---> a7c3c20fc687
+Step 6/16 : RUN npm run build
+ ---> Running in ca694317b701
+
+> rest-express@1.0.0 build
+> tsx script/build.ts
+
+building client...
+vite v7.3.0 building client environment for production...
+transforming...
+
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+✓ 2032 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/public/index.html                   0.99 kB │ gzip:   0.52 kB
+../dist/public/assets/index-pDR-5Fyu.css   73.50 kB │ gzip:  11.97 kB
+../dist/public/assets/index-ClVM9J-S.js   470.76 kB │ gzip: 146.39 kB
+✓ built in 5.20s
+building server...
+
+  dist/index.cjs  897.8kb
+
+⚡ Done in 58ms
+ ---> Removed intermediate container ca694317b701
+ ---> f19964f47f98
+Step 7/16 : FROM node:20-bullseye-slim AS runtime
+ ---> a1b9a46eb4fd
+Step 8/16 : WORKDIR /app
+ ---> Running in 5c93cc062456
+ ---> Removed intermediate container 5c93cc062456
+ ---> 980e6d2a3527
+Step 9/16 : COPY package*.json ./
+ ---> 15250a78d90d
+Step 10/16 : RUN npm ci --omit=dev && npm cache clean --force
+ ---> Running in 1e1e15c87aee
+
+added 370 packages, and audited 371 packages in 7s
+
+52 packages are looking for funding
+  run `npm fund` for details
+
+3 high severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+npm notice
+npm notice New major version of npm available! 10.8.2 -> 11.7.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.7.0
+npm notice To update run: npm install -g npm@11.7.0
+npm notice
+npm warn using --force Recommended protections disabled.
+ ---> Removed intermediate container 1e1e15c87aee
+ ---> 3cc2276bd4e6
+Step 11/16 : COPY --from=builder /app/dist ./dist
+ ---> db8cae5e8486
+Step 12/16 : ENV NODE_ENV=production
+ ---> Running in 0fcd6722ba51
+ ---> Removed intermediate container 0fcd6722ba51
+ ---> e94904cb66a0
+Step 13/16 : ENV PORT=3225
+ ---> Running in 7284f0a3ded4
+ ---> Removed intermediate container 7284f0a3ded4
+ ---> b08b8e89c1a7
+Step 14/16 : EXPOSE 3225
+ ---> Running in ac297fd87153
+ ---> Removed intermediate container ac297fd87153
+ ---> d8429b2f56fa
+Step 15/16 : HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3   CMD node -e "require('http').get('http://localhost:3225/api/stats', (r) => process.exit(r.statusCode === 200 ? 0 : 1))"
+ ---> Running in ca6b38c65a01
+ ---> Removed intermediate container ca6b38c65a01
+ ---> 7a4a8208320a
+Step 16/16 : CMD ["node", "dist/index.cjs"]
+ ---> Running in af6e3ce32ea4
+ ---> Removed intermediate container af6e3ce32ea4
+ ---> 81b8b5d5fb17
+Successfully built 81b8b5d5fb17
+Successfully tagged vpnwatch:latest
+[root@TENXSD-NW-AIOPS VPN-Monitor]# 
+[root@TENXSD-NW-AIOPS VPN-Monitor]# # Start and check
+[root@TENXSD-NW-AIOPS VPN-Monitor]# docker compose up -d
+WARN[0000] /root/VPN-Monitor/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[+] Running 11/11
+ ✔ docker-cleanup Pulled                                                                                              3.1s 
+   ✔ c6a83fedfae6 Pull complete                                                                                       0.4s 
+   ✔ 3cb0c5068d02 Pull complete                                                                                       0.8s 
+   ✔ 4f4fb700ef54 Pull complete                                                                                       0.9s 
+   ✔ c26a89106685 Pull complete                                                                                       0.9s 
+   ✔ 9fc3e39771f4 Pull complete                                                                                       1.2s 
+   ✔ c93f0fd22a8c Pull complete                                                                                       1.6s 
+   ✔ 40eb2cf48e46 Pull complete                                                                                       2.0s 
+   ✔ cb0ad0fba8ff Pull complete                                                                                       2.0s 
+   ✔ 5afcec5c4253 Pull complete                                                                                       2.1s 
+   ✔ 10fca464d7a8 Pull complete                                                                                       2.2s 
+Compose can now delegate builds to bake for better performance.
+ To do so, set COMPOSE_BAKE=true.
+[+] Building 26.3s (14/14) FINISHED                                                                         docker:default
+ => [vpnwatch internal] load build definition from Dockerfile                                                         0.1s
+ => => transferring dockerfile: 1.03kB                                                                                0.0s
+ => [vpnwatch internal] load metadata for docker.io/library/node:20-bullseye-slim                                     0.0s
+ => [vpnwatch internal] load .dockerignore                                                                            0.1s
+ => => transferring context: 234B                                                                                     0.0s
+ => [vpnwatch builder 1/6] FROM docker.io/library/node:20-bullseye-slim                                               0.2s
+ => [vpnwatch internal] load build context                                                                            0.2s
+ => => transferring context: 3.15MB                                                                                   0.0s
+ => [vpnwatch builder 2/6] WORKDIR /app                                                                               0.8s
+ => [vpnwatch builder 3/6] COPY package*.json ./                                                                      0.2s
+ => [vpnwatch builder 4/6] RUN npm ci                                                                                14.8s
+ => [vpnwatch runtime 4/5] RUN npm ci --omit=dev && npm cache clean --force                                          11.9s
+ => [vpnwatch builder 5/6] COPY . .                                                                                   0.1s 
+ => [vpnwatch builder 6/6] RUN npm run build                                                                          6.9s 
+ => [vpnwatch runtime 5/5] COPY --from=builder /app/dist ./dist                                                       0.1s 
+ => [vpnwatch] exporting to image                                                                                     2.4s 
+ => => exporting layers                                                                                               2.3s 
+ => => writing image sha256:a1a162c092aa4b73fe66a67c075646b4a0945bb8675427a6650f077fe7c8d542                          0.0s 
+ => => naming to docker.io/library/vpn-monitor-vpnwatch                                                               0.0s 
+ => [vpnwatch] resolving provenance for metadata file                                                                 0.0s 
+[+] Running 4/4
+ ✔ vpnwatch                     Built                                                                                 0.0s 
+ ✔ Network vpn-monitor_default  Created                                                                               0.4s 
+ ✔ Container docker-cleanup     Started                                                                               0.4s 
+ ✔ Container vpnwatch           Started                                                                               0.5s 
+[root@TENXSD-NW-AIOPS VPN-Monitor]# docker logs vpnwatch 2>&1 | grep -i "VERSION 2.0\|DEBUG" | head -10
+[root@TENXSD-NW-AIOPS VPN-Monitor]# 

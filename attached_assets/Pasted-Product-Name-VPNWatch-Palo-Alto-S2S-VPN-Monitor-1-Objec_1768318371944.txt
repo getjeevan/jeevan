@@ -1,0 +1,241 @@
+Product Name
+
+VPNWatch – Palo Alto S2S VPN Monitor
+
+1. Objective
+
+Build a lightweight web application on Replit that fetches, visualizes, and monitors Site-to-Site IPsec VPN status from Palo Alto firewalls using API keys, enabling real-time visibility and operational readiness.
+
+2. Problem Statement
+
+Network teams lack a simple, centralized view of Palo Alto S2S VPN health without logging into each firewall. Existing tools are heavyweight or expensive. A fast, API-driven dashboard is required for operations, audits, and incident response.
+
+3. Target Users
+
+Network Operations (L2/L3)
+
+Security Operations
+
+MSP / NOC teams
+
+Architects validating VPN health during changes
+
+ServiceNow / ITOM teams
+
+4. In-Scope Features (MVP)
+4.1 Firewall Connectivity
+
+Connect to Palo Alto firewall via:
+
+Management IP / FQDN
+
+API Key authentication
+
+PAN-OS versions:
+
+XML API (PAN-OS 8.x+)
+
+REST API (PAN-OS 10.1+)
+
+4.2 VPN Status Retrieval
+
+Fetch IPsec S2S tunnel status
+
+Fetch IKE Phase-1 status
+
+Data points:
+
+Tunnel name
+
+Peer IP
+
+State (UP / DOWN)
+
+IKE state
+
+Encryption & auth
+
+Rekey timers
+
+Bytes in / out
+
+Last state change timestamp
+
+4.3 Dashboard
+
+Table view of all tunnels
+
+Color indicators:
+
+Green: UP
+
+Red: DOWN
+
+Amber: Flapping / Rekey
+
+Filters:
+
+Firewall
+
+Tunnel name
+
+Status
+
+Manual refresh button
+
+4.4 Polling & Refresh
+
+Default polling interval: 60 seconds
+
+Configurable per firewall
+
+Manual “Validate Now” option
+
+5. Phase-2 (Post-MVP)
+
+Multi-firewall inventory
+
+Tunnel flap detection
+
+Historical uptime (last 24h / 7d)
+
+Alerting:
+
+Email
+
+Webhook (ServiceNow / Slack)
+
+Role-based access (Viewer / Admin)
+
+Read-only API role enforcement
+
+6. Out of Scope
+
+VPN latency measurement
+
+Packet-level inspection
+
+Config changes on firewall
+
+User provisioning on Palo Alto
+
+7. Technical Architecture (Replit-Friendly)
+7.1 Frontend
+
+React + Tailwind
+
+Responsive UI
+
+Table + status badges
+
+7.2 Backend
+
+Python (FastAPI) or Node.js (Express)
+
+API abstraction layer:
+
+XML API handler
+
+REST API handler
+
+Secure secrets handling (Replit Secrets)
+
+7.3 API Calls Used
+
+IPsec Status (XML)
+
+/api/?type=op&cmd=<show><vpn><ipsec><sa></sa></ipsec></vpn></show>
+
+
+IKE Status (XML)
+
+/api/?type=op&cmd=<show><vpn><ike><sa></sa></ike></vpn></show>
+
+8. Data Model (Core)
+Firewall
+
+id
+
+name
+
+mgmt_ip
+
+panos_version
+
+api_type (xml/rest)
+
+polling_interval
+
+VPN_Tunnel
+
+firewall_id
+
+tunnel_name
+
+peer_ip
+
+ipsec_state
+
+ike_state
+
+encryption
+
+bytes_in
+
+bytes_out
+
+last_checked
+
+9. Security Requirements
+
+API keys stored only in encrypted secrets
+
+HTTPS only
+
+Read-only Palo Alto admin role
+
+No credential logging
+
+Session timeout for UI
+
+10. Non-Functional Requirements
+
+Page load < 2 seconds
+
+API timeout handling
+
+Graceful firewall unreachable handling
+
+Scalable to 50+ firewalls
+
+Stateless backend
+
+11. Success Metrics
+
+VPN status accuracy ≥ 99%
+
+Time to detect tunnel down < 2 minutes
+
+Zero firewall config changes required
+
+Reduced manual firewall logins
+
+12. Deployment (Replit)
+
+Single Replit project
+
+Auto-restart on crash
+
+Environment-based config
+
+Optional public/private deployment
+
+13. Future Enhancements
+
+Multi-vendor (Cisco, Fortinet)
+
+ServiceNow CMDB sync
+
+AI-based anomaly detection
+
+Change-window validation mode

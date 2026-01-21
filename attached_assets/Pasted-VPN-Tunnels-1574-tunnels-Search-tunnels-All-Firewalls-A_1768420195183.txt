@@ -1,0 +1,9453 @@
+VPN Tunnels
+1574 tunnels
+
+Search tunnels...
+
+All Firewalls
+
+All Status
+Tunnel Name	Firewall	Peer IP	IKE State	IPsec State	Encryption	Traffic	Last Checked
+VPN-Medi-204.246.139.254:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Pediatrix-Prod:Proxy-ID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-247	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Mercy-VPN:Proxy-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-MedConnect:ID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID57	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID119	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID26	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RLDatix_IPSec:PID_01	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Advocatia-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Corro-Health-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ConcordRadiology-VPN:ID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+pbms-vpn:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID52	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID152	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID99	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Quest-Diagnostic:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Manifestmedex-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID56	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID96	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID106	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID107	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TeamHealth-VPN:Proxy-ID-5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+BedWatch-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID102	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID100	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ProxyID-289	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ztelerad-new-vpn:ProxyID-23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+FujiFilm-L2LVPN-IPSec:PID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID120	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-CERNER:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID109	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID61	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Simplee-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Twistle-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PHIX-L2LVPN-IPSec:ProxyID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID91	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID111	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID61	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID87	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID53	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PremanageED:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:ID-7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID230	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID106	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Tyler-USPI-173.0.44.203	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-52	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID182	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+vitalware-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-03	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID26	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID50	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID108	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EllkayLLC_IPSec:PID_01	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID146	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID77	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MediM-207.200.38.130:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID73	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID93	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CareDirectives-VPN:A3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-231	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID67	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID132	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:ID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+USPI-Cerner-L2LVPN-104.214.60.206:ProxyID02	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TrueNorthVendor-L2LVPN-139.138.49.20:PID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Visage-L2LVPN-IPsec:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+HCL-Madurai-L2VPN-IPsec	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID55	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-JMH-206.107.211.10:ProxyID141	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedeA-96.46.144.251:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID59	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID147	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID60	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID90	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:PID-24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ProxyID-271	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Msnllc-Ipsec:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MediM-207.200.38.130:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ztelerad-new-vpn:ProxyID-24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID212	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+XSOLIS-L2LVPN-IPSec:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID219	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+WellSky-CarePort-L2LVPN-IPSec	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID113	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MediM-207.200.38.130:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-92	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TMS:PID	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EMR_GCSA-L2LVPN-3.224.74.165:PID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DataFirst-L2LVPN-IPSec:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DocPanel-VPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ibex-Primary-VPN:PID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EllkayLLC_IPSec:PID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:ID-8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atrium-CHS:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID79	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:PID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID150	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-MMM:ID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-260	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-83	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-99	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID84	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID49	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vetmed-VPN:ID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CareView-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+pbms-vpn:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-267	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ProxyID-277	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID70	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID65	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:PID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-74	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Experian-Primary:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-49	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:PID34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Borland-L2LVPN-199.227.89.146:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID106	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Twistle-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID127	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-3drlabs:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID74	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-271	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-216	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-66	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID73	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Advocatia1-VPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID100	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Quest-Diagnostic:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-Minolta-Healthcare-68.66.131.82:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-PathG-67.216.174.133:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID51	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Ensono-SteadyState:ProxyID	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-277	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID95	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID83	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID53	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID125	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Sound-Ph-66.113.98.2-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ESO_IPSec:PID_02	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Optum-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID123	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MediM-207.200.38.130:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-49	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:PID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID71	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID56	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID65	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ibex-Primary-VPN:PID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID81	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID207	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-246	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID122	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID82	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID116	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID83	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Sheridan-HC-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID136	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID64	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+FinThrive-VPN:P3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+IBS2-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-252	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PPSpath-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ApolloMD-L2LVPN:ProxyID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID81	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-80	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID101	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID81	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-COLO:Proxy-ID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID106	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-05	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID123	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-KidzM-12.42.2.115:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Brookwood-tunnel:PID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID78	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID-13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ProxyID-276	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID62	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-225	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Quest-Diagnostic:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Zotec1-13.59.222.132:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID110	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID26	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID72	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Brookwood-tunnel:PID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID43	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TeamHealth-VPN:Proxy-ID-9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID80	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-61	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID117	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID99	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID86	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Corro-Health-VPN:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID43	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID130	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID26	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID222	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Prisma_Service_Tunnel	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-270	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Adventist-L2LVPN-IPSec:PID-9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Corro-Health-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+AHC-PROD-L2LVPN-13.91.97.112:ProxyID01	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TORQ-L2LVPN:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID144	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:PID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID97	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-50	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-JMH-206.107.211.10:ProxyID110	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID228	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Iatric-74.84.223.2:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID-38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID148	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID102	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-82	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+BostonMass-VPN:ID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID74	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PremanageED:ProxyID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID65	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Image_Trend-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID64	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID80	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID217	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Adventist-L2LVPN-IPSec:PID-6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID96	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PMD-L2LVPN-IPSec:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EllkayLLC_IPSec:PID_03	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-CareT-209.166.188.97:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NTT-Manila-NEW-Tunnel	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+gottlieb-vpn:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID69	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID90	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-JMH-206.107.211.10:ProxyID124	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Rdc-L2VPN:ID-24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PremanageED:ProxyID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID85	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-67	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-PathG-67.216.174.133:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID124	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-79	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-3drlabs:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-FinaoC-207.111.171.29:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID59	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Brookwood-tunnel:PID-5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID146	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID54	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+SCPHealth-VPN:Proxy-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID58	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID57	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID71	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID149	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID224	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-CERNER:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-3drlabs:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TeamHealth-VPN:Proxy-ID-8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID61	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID148	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Optum-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+GBC-WorkAble-VPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-56	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Envision_IPSec	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-75	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Iatric-74.84.223.2:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-73	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID101	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID95	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID75	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID68	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-244	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PolicyMedical-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID77	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID63	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID209	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID98	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID78	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Corro-Health-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID134	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-77	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID92	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID116	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+GreaterAnesthesia-L2LVPN-13.58.203.196:PID04	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Pediatrix-Prod:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID103	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID86	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID114	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+epreop-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID66	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+GE-Health-IPSEC-Routebased:ProxyID	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID53	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID85	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:PID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-274	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Image_Trend-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID77	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-60	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID72	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-IMCOLLAB:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PathForward-L2LVPN-66.192.237.4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+BostonMass-VPN:ID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-264	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID93	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID131	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID91	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CareView-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID95	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ospitek_VPN:PID-172.27.234.45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+GreaterAnesthesia-L2LVPN-13.58.203.196:PID03	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID141	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID210	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:ID-5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID231	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-86	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID69	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID107	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID80	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-91	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VRAD-VPN:PID192	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ibex-Primary-VPN:PID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:PID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DataFirst-L2LVPN-IPSec:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID56	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:ID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-CareT-209.166.188.97:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+AHC-PROD-L2LVPN-13.91.97.112:ProxyID02	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-266	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID147	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID72	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atrium-CHS:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-100	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RLDatix_IPSec:PID_06	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Magviewvendor-S2SVPN-70.90.91.194:PID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+BostonMass-VPN:ID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-06	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID75	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID01	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID79	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-81	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID139	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:Proxy_id37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Borland-L2LVPN-199.227.89.146:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atrium-CHS:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:ID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID124	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Envision-Radiology-Tunnel	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID206	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID76	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EMR_GCSA-L2LVPN-3.224.74.165:PID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Asrrad-34.125.75.218:Proxy-ID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID137	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID55	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:PID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Manifestmedex-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PremanageED:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+luriechildrens-VPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID54	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+iSchemaview-VPN:Proxy-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID110	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID88	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Emerus-Corp:Proxy-ID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID104	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Optum-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID52	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID65	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Teladoc-Health-L2LVPN:PorxyId-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID-107	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID78	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Clinicomp-Pri-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID229	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Emerus-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TMS:PD1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID221	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID55	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID108	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+BOSTONMEDICAL-L2LVPN-IPSec:PID_2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID107	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+imagine-L2LVPN:proxyID-5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EMR_GCSA-L2LVPN-3.224.74.165:PID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID150	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID81	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RLDatix_IPSec:PID_02	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID77	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID76	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ESO_IPSec:PID_03	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+MRA_Revecore-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-59	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Photon-Medical-Comm:ProxyID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-CERNER:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-04	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID143	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NAPA-VPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Borland-L2LVPN-199.227.89.146:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-279	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Quinsite-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID93	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedeA-96.46.144.251:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NovantHealth-L2LVPN-IPSec	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:PID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+intermedix-sci-VPN:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NCH-EPIC-Conifer-VPN:ID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CIVIE_Tunnel	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PremanageED:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Sheridan-HC-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID67	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID51	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-245	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID49	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID89	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID84	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Island-L2LVPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID153	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Msnllc-Ipsec:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TrueNorthVendor-L2LVPN-139.138.49.20:PID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-232	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:ID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:PID-34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MediM-207.200.38.130:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Photon-Medical-Comm:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID115	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID49	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID43	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-MedConnect:ID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+usc-keck-new-vpn	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PHIX-L2LVPN-IPSec:ProxyID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID105	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CareDirectives-VPN:A4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+GreaterAnesthesia-L2LVPN-13.58.203.196:PID01	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-51	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID66	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VRAD-VPN:PID46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID108	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-3drlabs:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID75	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TORQ-L2LVPN:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+XSOLIS-L2LVPN-IPSec:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID89	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID109	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-JMH-206.107.211.10:ProxyID143	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-256	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Altera-Carebridge-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID49	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Photon-Medical-Comm:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID62	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RLDatix_IPSec:PID_07	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CareDirectives-VPN:A2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-255	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID108	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:PID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RadPartner-VPN:Proxy-ID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Redoxvendor-L2LVPN-54.209.188.137:PID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Rldatix-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Borland-L2LVPN-199.227.89.146:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID82	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RLDatix_IPSec:PID_03	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID75	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Borland-L2LVPN-199.227.89.146:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID79	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-3drlabs:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:PID48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID213	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-253	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+SPACETRAX-L2LVPN-216.120.161.126:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Veradigm-L2LVPN-IPSec:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-296	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RANT-L2LVPN-216.65.194.180:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+FujiFilm-L2LVPN-IPSec:PID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID143	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID79	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+nthrive2-VPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Quinsite-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID80	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-09	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DataFirst-L2LVPN-IPSec:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID145	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-CERNER:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Borland-L2LVPN-199.227.89.146:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-02	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID233	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Canon-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-243	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Quest-Diagnostic:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ProxyID-258	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID26	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID104	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-72	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:ID-6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID97	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID53	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID119	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TrueNorthVendor-L2LVPN-139.138.49.20:PID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID93	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Idssite-VPN-209.94.77.4:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TeamHealth-VPN:Proxy-ID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID94	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID58	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID69	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID98	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID72	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-97	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Rldatix-VPN:ProxyID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID81	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:PID-20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-242	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID51	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Availity_Prod_IPSec	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID218	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+SCPHealth-VPN:Proxy-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID74	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID126	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID112	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-64	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID183	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:PID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+FujiFilm-L2LVPN-IPSec:PID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID60	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Jackson-Health-VPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID80	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID69	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+gottlieb-vpn:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-241	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-254	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID130	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Availity_NonProd_IPSec	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID89	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Rldatix-VPN:ProxyID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:PID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-3drlabs:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EMR_GCSA-L2LVPN-3.224.74.165:PID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID63	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Medenetwork-L2LVPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID87	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID148	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID79	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID62	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID111	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID105	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID54	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VRAD-VPN:ProxyID-198	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID50	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Rdc-L2VPN:ID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:PID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+cheshire-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+OzSystems:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Optum-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID73	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID73	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID-106	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-291	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TSMOG-L2LVPN-IPSec:ProxyID-8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-96	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Solara-L2LVPN-IPSec:PID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Clinicomp-Pri-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ApolloMD-L2LVPN:proxyID-5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID205	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID43	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Redoxvendor-L2LVPN-54.209.188.137:PID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-71	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Rdc-L2VPN:ID-9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID138	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID78	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID136	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RP-L2LVPN-IPSec-64.132.111.5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ConcordRadiology-VPN:ID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Borland-L2LVPN-199.227.89.146:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID62	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID146	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+intermedix-sci-VPN:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID96	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vyne-New-Tunnel	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MediM-207.200.38.130:ProxyID46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID49	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID227	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID98	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-263	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-98	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID53	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-CareT-209.166.188.97:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EMR_GCSA-L2LVPN-3.224.74.165:PID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-HLG-173.198.116.226:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:ProxyID-36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID80	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PremanageED:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-KidzM-12.42.2.115:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID97	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Landauer-IPSEC_tunnel	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID107	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+contexture-3.222.14.57	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:PID-21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-94	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Quest-Diagnostic:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Sound-Physicians:Proxy-ID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID76	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID94	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-Minolta-Healthcare-68.66.131.82:ProxyID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EllkayLLC_IPSec:PID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID215	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Emerus-Corp:Proxy-ID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID110	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID128	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ibex-Primary-VPN:PID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID54	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atrium-CHS:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID103	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID55	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Akuminnew-35.245.205.6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Iatric-74.84.223.2:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-262	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Medtech-VPN:Proxy-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+GreaterAnesthesia-L2LVPN-13.58.203.196:PID02	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Idssite-VPN-209.94.77.4:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID196	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID67	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID149	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-PathG-67.216.174.133:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID223	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID142	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+IBS2-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedeA-96.46.144.251:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID74	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EMR_GCSA-L2LVPN-3.224.74.165:PID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-IMCOLLAB:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID07	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Magviewvendor-S2SVPN-70.90.91.194:PID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID50	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID87	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID101	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID137	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID68	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID50	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID81	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID111	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-63	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Azcarenetwork-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NextGen-72.1.114.4:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID105	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Idssite-VPN-209.94.77.4:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Rdc-L2VPN:ID-10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:PID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-70	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID95	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Brookwood-tunnel:PID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+FujiFilm-L2LVPN-IPSec:PID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID72	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Pediatrix-Test:Proxy-ID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+gottlieb-vpn:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID73	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID89	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+GBC-WorkAble-VPN_backup	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID185	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID101	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Asrrad-34.125.75.218:Proxy-ID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Adventist-L2LVPN-IPSec:PID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-01	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PHIX-L2LVPN-IPSec:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TSMOG-L2LVPN-IPSec:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-78	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Adventist-L2LVPN-IPSec:PID-7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Qventus-Primary-VPN:ID01	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:PID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID41	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID71	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID143	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Experian-VPN:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID132	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID90	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atrium-CHS:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID79	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CareView-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-240	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+epreop-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+SPACETRAX-L2LVPN-216.120.161.126:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-250	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID49	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID56	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID51	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Rdc-L2VPN:ID-20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID78	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Iatric-74.84.223.2:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ApolloMD-L2LVPN:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Pediatrix-Prod:ProxyID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+epreop-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PremanageED:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+FinThrive-VPN:P2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Iatric-74.84.223.2:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID50	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID133	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+MedeAnalytics-VPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-51	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TeamHealth-VPN:Proxy-ID-7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ValleyChildrens:PID-23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-251	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PHIX-L2LVPN-IPSec:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID50	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID85	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+USPI-Cerner-L2LVPN-104.214.60.206:ProxyID01	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Radiology-Partners-L2LVPN-20.7.249.250	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID97	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-228	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MediM-207.200.38.130:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+AHC-PROD-L2LVPN-13.91.97.112:ProxyID03	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID66	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID125	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-93	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID82	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID54	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+imagine-L2LVPN:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ApolloMD-L2LVPN:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID43	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID43	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID65	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+EllkayLLC_IPSec:PID_05	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PremanageED:ProxyID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+WellSky-L2LVPN-IPSec	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Magviewvendor-S2SVPN-70.90.91.194:PID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID48	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Rldatix-VPN:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID50	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+West_Modmed_IPSec:PID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+imagine-L2LVPN:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID151	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CareDirectives-VPN:A5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+imagine-L2LVPN:ProxyID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Seacoast-Metrowest:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID74	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID66	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-275	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-53	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID129	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID58	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Healthcare-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-273	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID135	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID63	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID103	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atrium-CHS:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-KidzM-12.42.2.115:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:PID-22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID43	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+FinThrive-VPN:P1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID57	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-62	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RLDatix_IPSec:PID_05	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-InContact-207.166.95.222:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID26	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CareDirectives-VPN:A1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID91	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-43	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-278	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Rdc-L2VPN:ID-21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Adventist-L2LVPN-IPSec:PID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-84	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-Minolta-Healthcare-68.66.131.82:ProxyID-4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID83	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Altera-Carebridge-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID26	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-249	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Healthcare-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PMD-L2LVPN-IPSec:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Experian-VPN:Proxy-ID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-100	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-3drlabs:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+SPACETRAX-L2LVPN-216.120.161.126:ProxyID-5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+epreop-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Simplee-VPN:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-95	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+SAMGI-VPN:PID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID138	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID118	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Raleigh-VPN:ProxyID28	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID234	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID186	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Medi-204.246.139.254:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-90	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID57	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Pediatrix-Test:Proxy-ID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID67	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-eclinical-20.37.131.224:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ESO_IPSec:PID_01	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID71	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Datica-VPN:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID73	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID117	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:PID51	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-65	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-32	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+MUSC-L2LVPN-128.23.248.194:ID-37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID225	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+HPIVPN_PROD_IPSEC	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID145	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID115	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Omniscient-AWS-IPSec-VPN:Proxy-ID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-MedConnect:ID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID63	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID61	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID78	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-HLG-173.198.116.226:ProxyID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID66	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+BostonMass-VPN:ID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Brookwood-tunnel:PID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID77	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID88	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID71	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Conifer-NTTAzure-40.83.241.200	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VRAD-VPN:PID193	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-Minolta-Healthcare-68.66.131.82:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-218	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID45	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID70	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID26	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID42	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID20	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Sound-Physicians:Proxy-ID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID68	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-220	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CareView-VPN:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+BedWatch-VPN:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID122	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-3drlabs:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID113	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedInt-208.67.120.10:PID153	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-RadP-192.198.29.48:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID10	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID102	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NorthShore-204.26.27.5:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ATT_NDS-VPN:ProxyID-37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID86	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+BedWatch-VPN:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:PID-295	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Idssite-VPN-209.94.77.4:ProxyID16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Vidistar-VPN:ProxyID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedeA-96.46.144.251:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:PID-35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID56	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MediM-207.200.38.130:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Renesan-VPN	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+incontact-bkup-vpn:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID59	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+pbms-vpn:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID77	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-215	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID65	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Vituity-12.87.44.26:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-WayStar:ID11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+PremanageED:ProxyID9	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Pediatrix-Prod:ProxyID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-38	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-69	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID36	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+SHS_EPIC-IPSecTunnel	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MediM-207.200.38.130:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2lVPN-OBHG:ID-2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID57	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID109	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+imagine-L2LVPN:ProxyID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Rdc-L2VPN:ID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID216	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ConcordRadiology-VPN:ID-3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ProxyID-272	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-TransUni-66.175.247.28:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DataFirst-L2LVPN-IPSec:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-NDX-207.58.220.228:ProxyID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID68	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Solara-L2LVPN-IPSec:PID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID14	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TSMOG-L2LVPN-IPSec:ProxyID-5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-34	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID60	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID85	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID21	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Providence	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-24	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-BambooH-35.168.166.143:ProxyID23	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID44	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+BCBS_L2LVPN-IPSec:Proxy-ID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Alegent-IPSec:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Ingeniousmed-VPN:PID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-11	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+pbms-vpn:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-40	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RLDatix_IPSec:PID_04	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID51	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-248	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID39	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID27	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID49	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-26	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID99	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-43	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-SMH-206.208.5.1:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-29	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+ITelagen-VPN:ProxyID1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine_tunnel:PID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID31	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID57	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID17	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID81	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+gottlieb-vpn:ProxyID4	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID107	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID105	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID121	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID181	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+TSMOG-L2LVPN-IPSec:ProxyID-7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Livedata2:ProxyID25	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+L2LVPN-Nucleus:PID147	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID131	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ProxyID-270	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Quest-Diagnostic:ProxyID2	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID33	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-AthenaH-208.78.140.250:ProxyID22	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+CentralLogic2-OE:ProxyID6	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID47	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Chi-Rdc-L2VPN:ID-15	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Ttuhsc-64.111.15.225:ProxyID126	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+DCSGlobal-VPN:ProxyID46	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+YPMG-VPN:ProxyID37	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+UnisonMD:ProxyID5	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID13	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID97	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Seroc-VPN:PID12	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-MedeA-96.46.144.251:ProxyID8	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+NetHealth-VPN:ProxyID96	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID19	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Konica-AWS-L2LVPN-IPSec:ProxyID-18	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Iodine-VPN:ProxyID30	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Dartmouth-Hitchcock-VPN:ProxyID211	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-07	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Atlantic-Radiology-VPN:PID-35	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Borland-L2LVPN-199.227.89.146:ProxyID7	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+VPN-Labcorp-12.145.88.13:ProxyID79	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Adventist-L2LVPN-IPSec:PID3	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+Philipsnew-L2LVPN:ID-16	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
+RANT-L2LVPN-216.65.194.180:ProxyID-1	
+TEN-XND-Vendor-VPN-PA-Fw1
+unknown	DOWN	DOWN	unknown
+unknown
+No traffic	
+in 1 minute
