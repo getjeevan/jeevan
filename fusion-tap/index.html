@@ -405,6 +405,135 @@
     .capacity-bar { height: 8px; background: rgba(255,255,255,0.08); overflow: hidden; }
     .capacity-fill { height: 100%; transition: width 2s ease; }
 
+    /* ── ANIMATED SIGNATURE POURS ── */
+    .pours-section { background: var(--bg); overflow: hidden; }
+    .pours-scroll {
+      display: flex; gap: 1.8rem; overflow-x: auto; padding: 2rem 0.5rem 3rem;
+      scrollbar-width: none; scroll-snap-type: x mandatory;
+    }
+    .pours-scroll::-webkit-scrollbar { display: none; }
+
+    .pour-card {
+      flex: 0 0 300px; position: relative; border-radius: 0;
+      background: #0d0e0f; border: 1px solid rgba(255,255,255,0.06);
+      overflow: hidden; scroll-snap-align: start;
+      transform-style: preserve-3d; transition: box-shadow .4s;
+      cursor: pointer;
+    }
+    /* per-card glow color */
+    .pour-card[data-glow="rose"]    { --glow-c: rgba(255,100,160,0.55); --glow-border: rgba(255,100,160,0.3); }
+    .pour-card[data-glow="smoke"]   { --glow-c: rgba(255,120,40,0.5);  --glow-border: rgba(255,140,40,0.3); }
+    .pour-card[data-glow="teal"]    { --glow-c: rgba(0,219,231,0.55);  --glow-border: rgba(0,219,231,0.35); }
+    .pour-card[data-glow="amber"]   { --glow-c: rgba(255,180,0,0.55);  --glow-border: rgba(255,180,0,0.3);  }
+    .pour-card[data-glow="green"]   { --glow-c: rgba(0,240,120,0.5);   --glow-border: rgba(0,240,120,0.3);  }
+    .pour-card[data-glow="purple"]  { --glow-c: rgba(180,80,255,0.55); --glow-border: rgba(180,80,255,0.3); }
+    .pour-card[data-glow="gold"]    { --glow-c: rgba(255,210,60,0.55); --glow-border: rgba(255,210,60,0.3);  }
+    .pour-card[data-glow="blue"]    { --glow-c: rgba(60,140,255,0.55); --glow-border: rgba(60,140,255,0.3);  }
+    .pour-card[data-glow="red"]     { --glow-c: rgba(255,60,80,0.55);  --glow-border: rgba(255,60,80,0.3);   }
+    .pour-card:hover { box-shadow: 0 8px 50px var(--glow-c); border-color: var(--glow-border); }
+
+    .pour-img {
+      width: 100%; height: 220px; object-fit: cover; display: block;
+      transition: transform .5s ease; filter: brightness(0.85) saturate(1.2);
+    }
+    .pour-card:hover .pour-img { transform: scale(1.06); filter: brightness(0.95) saturate(1.4); }
+
+    /* liquid fill animation overlay */
+    .pour-liquid {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 0%; background: linear-gradient(to top, var(--glow-c), transparent);
+      transition: height .6s cubic-bezier(.22,.61,.36,1); z-index: 1; pointer-events: none;
+    }
+    .pour-card:hover .pour-liquid { height: 30%; }
+
+    .pour-badge {
+      position: absolute; top: 1rem; left: 1rem; z-index: 3;
+      font-size: 0.62rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase;
+      padding: 0.25rem 0.6rem; border-radius: 0;
+    }
+    .badge-trending { background: #ff4060; color: #fff; animation: badge-pulse 2s infinite; }
+    .badge-popular  { background: #ffb400; color: #000; }
+    .badge-new      { background: var(--teal); color: #000; }
+    .badge-collab   { background: #b450ff; color: #fff; }
+    .badge-hh       { background: #00ff88; color: #000; animation: badge-pulse 2s infinite; }
+    @keyframes badge-pulse { 0%,100%{ opacity:1; } 50%{ opacity:0.7; } }
+
+    .pour-body { padding: 1.4rem; position: relative; z-index: 2; }
+    .pour-base { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.4rem; }
+    .pour-name {
+      font-family: 'Bebas Neue', sans-serif; font-size: 1.7rem; letter-spacing: 0.06em;
+      color: #fff; margin-bottom: 0.4rem; line-height: 1;
+    }
+    .pour-vibe { font-size: 0.78rem; color: var(--muted); line-height: 1.5; margin-bottom: 1rem; }
+    .pour-footer { display: flex; align-items: center; justify-content: space-between; }
+    .pour-price {
+      font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem;
+      color: var(--teal); text-shadow: 0 0 12px var(--glow-c);
+    }
+    .pour-cta {
+      font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+      color: #000; background: var(--teal); padding: 0.45rem 1rem; border: none; cursor: pointer;
+      transition: box-shadow .25s, transform .2s;
+    }
+    .pour-cta:hover { box-shadow: 0 0 16px var(--glow-c); transform: translateY(-1px); }
+
+    /* heat meter */
+    .heat-row { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.8rem; }
+    .heat-label { font-size: 0.62rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+    .heat-dots { display: flex; gap: 3px; }
+    .heat-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,0.12); }
+    .heat-dot.on { background: #ff4060; box-shadow: 0 0 5px #ff4060; }
+
+    /* ── FUSION BITES ── */
+    .bites-section { background: var(--surface); }
+    .bites-tabs { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
+    .bites-tab {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase;
+      padding: 0.55rem 1.2rem; background: transparent;
+      border: 1px solid rgba(255,255,255,0.12); color: var(--muted);
+      cursor: pointer; transition: all .2s;
+    }
+    .bites-tab.active, .bites-tab:hover { border-color: var(--teal); color: var(--teal); background: rgba(0,219,231,0.07); }
+    .bites-panel { display: none; }
+    .bites-panel.active { display: block; }
+
+    .bites-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.4rem; }
+    .bite-card {
+      background: var(--bg); border: 1px solid rgba(255,255,255,0.05);
+      overflow: hidden; cursor: pointer;
+      transition: transform .3s, box-shadow .3s;
+    }
+    .bite-card:hover { transform: translateY(-5px); box-shadow: 0 12px 40px rgba(0,0,0,0.5); }
+    .bite-img-wrap { position: relative; height: 200px; overflow: hidden; }
+    .bite-img {
+      width: 100%; height: 100%; object-fit: cover; display: block;
+      transition: transform .5s ease; filter: brightness(0.9) saturate(1.15);
+    }
+    .bite-card:hover .bite-img { transform: scale(1.08); filter: brightness(1) saturate(1.3); }
+    .bite-img-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(13,14,15,0.85) 0%, transparent 55%);
+    }
+    .bite-img-tags { position: absolute; bottom: 0.8rem; left: 0.8rem; display: flex; gap: 0.4rem; }
+    .bite-tag {
+      font-size: 0.58rem; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase;
+      padding: 0.2rem 0.5rem;
+    }
+    .bite-tag.fire   { background: #ff4040; color: #fff; }
+    .bite-tag.veg    { background: #00b450; color: #fff; }
+    .bite-tag.new    { background: var(--teal); color: #000; }
+    .bite-tag.squad  { background: #b450ff; color: #fff; }
+    .bite-tag.lnight { background: #ffb400; color: #000; }
+    .bite-tag.share  { background: #ff6080; color: #fff; }
+
+    .bite-body { padding: 1.2rem; }
+    .bite-name { font-family: 'Bebas Neue', sans-serif; font-size: 1.35rem; letter-spacing: 0.06em; margin-bottom: 0.3rem; }
+    .bite-desc { font-size: 0.78rem; color: var(--muted); line-height: 1.5; margin-bottom: 0.8rem; }
+    .bite-social { font-size: 0.7rem; color: var(--teal); font-style: italic; margin-bottom: 0.8rem; }
+    .bite-footer { display: flex; justify-content: space-between; align-items: center; }
+    .bite-price { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; color: var(--teal); }
+    .bite-reorder { font-size: 0.65rem; color: var(--muted); }
+
     /* ── EVENTS TEASER ── */
     .events-teaser { background: var(--surface-hi); }
     .events-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
@@ -950,6 +1079,316 @@
     </div>
   </section>
 
+  <!-- SIGNATURE POURS ANIMATED -->
+  <section class="pours-section">
+    <div style="padding:6rem 3rem 0;">
+      <div class="section-label">For the ones who vibe different</div>
+      <div class="section-title">SIGNATURE POURS</div>
+      <p style="color:var(--muted);font-size:0.95rem;max-width:520px;margin-bottom:0.5rem;line-height:1.65;">
+        Every glass tells a story. Half Dallas swagger, half Bangalore soul — all unforgettable.
+      </p>
+    </div>
+    <div class="pours-scroll" id="pours-scroll">
+
+      <div class="pour-card" data-glow="rose">
+        <span class="pour-badge badge-trending">🔥 Trending #1</span>
+        <div class="pour-liquid"></div>
+        <img class="pour-img" src="https://images.pexels.com/photos/33826046/pexels-photo-33826046.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Aqua di Roja" loading="lazy">
+        <div class="pour-body">
+          <div class="pour-base">Litchi Vodka · Rose · Sesame</div>
+          <div class="pour-name">Aqua di Roja</div>
+          <div class="heat-row"><span class="heat-label">Heat</span><div class="heat-dots"><span class="heat-dot"></span><span class="heat-dot"></span><span class="heat-dot"></span><span class="heat-dot"></span><span class="heat-dot"></span></div></div>
+          <div class="pour-vibe">Floral, mysterious and straight-up unforgettable. Tastes like a Bangalore night that turned into a Dallas morning.</div>
+          <div class="pour-footer"><div class="pour-price">$17</div><button class="pour-cta">ORDER NOW</button></div>
+        </div>
+      </div>
+
+      <div class="pour-card" data-glow="smoke">
+        <span class="pour-badge badge-popular">⚡ Most Ordered</span>
+        <div class="pour-liquid"></div>
+        <img class="pour-img" src="https://images.pexels.com/photos/8375042/pexels-photo-8375042.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Deep Ellum Smoke" loading="lazy">
+        <div class="pour-body">
+          <div class="pour-base">Mezcal · Smoked Chili · Hickory Salt</div>
+          <div class="pour-name">Deep Ellum Smoke</div>
+          <div class="heat-row"><span class="heat-label">Heat</span><div class="heat-dots"><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot on"></span></div></div>
+          <div class="pour-vibe">Smoky, fiery, no apologies. This drink is basically a Deep Ellum warehouse on a Friday night — in a glass.</div>
+          <div class="pour-footer"><div class="pour-price">$18</div><button class="pour-cta">ORDER NOW</button></div>
+        </div>
+      </div>
+
+      <div class="pour-card" data-glow="teal">
+        <span class="pour-badge badge-hh">🍹 Happy Hour</span>
+        <div class="pour-liquid"></div>
+        <img class="pour-img" src="https://images.pexels.com/photos/6940092/pexels-photo-6940092.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Electric Chai Mule" loading="lazy">
+        <div class="pour-body">
+          <div class="pour-base">Masala Chai Vodka · Ginger Beer · Tulsi</div>
+          <div class="pour-name">Electric Chai Mule</div>
+          <div class="heat-row"><span class="heat-label">Heat</span><div class="heat-dots"><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot"></span><span class="heat-dot"></span></div></div>
+          <div class="pour-vibe">Your amma's chai had a wild night in Moscow. Spiced, effervescent, hits every time. $9 during happy hour.</div>
+          <div class="pour-footer"><div class="pour-price">$15</div><button class="pour-cta">ORDER NOW</button></div>
+        </div>
+      </div>
+
+      <div class="pour-card" data-glow="amber">
+        <span class="pour-badge badge-popular">👑 Classic</span>
+        <div class="pour-liquid"></div>
+        <img class="pour-img" src="https://images.pexels.com/photos/4762719/pexels-photo-4762719.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mahogany Old Fashioned" loading="lazy">
+        <div class="pour-body">
+          <div class="pour-base">Aged Bourbon · Jaggery · Tamarind Bitters</div>
+          <div class="pour-name">Mahogany Old Fashioned</div>
+          <div class="heat-row"><span class="heat-label">Heat</span><div class="heat-dots"><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot"></span><span class="heat-dot"></span><span class="heat-dot"></span></div></div>
+          <div class="pour-vibe">The OG, remixed. Jaggery instead of sugar, tamarind bitters instead of Angostura. Time well spent at this bar.</div>
+          <div class="pour-footer"><div class="pour-price">$19</div><button class="pour-cta">ORDER NOW</button></div>
+        </div>
+      </div>
+
+      <div class="pour-card" data-glow="purple">
+        <span class="pour-badge badge-new">✨ New Drop</span>
+        <div class="pour-liquid"></div>
+        <img class="pour-img" src="https://images.pexels.com/photos/7259083/pexels-photo-7259083.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Scandinavian Skies" loading="lazy">
+        <div class="pour-body">
+          <div class="pour-base">Gin · Passion Fruit · Coriander · Elderflower</div>
+          <div class="pour-name">Scandinavian Skies</div>
+          <div class="heat-row"><span class="heat-label">Heat</span><div class="heat-dots"><span class="heat-dot on"></span><span class="heat-dot"></span><span class="heat-dot"></span><span class="heat-dot"></span><span class="heat-dot"></span></div></div>
+          <div class="pour-vibe">A gin trip through the Nordic fjords with a Bangalore detour. Coriander fresh, passion-fruit wild. New to the menu.</div>
+          <div class="pour-footer"><div class="pour-price">$16</div><button class="pour-cta">ORDER NOW</button></div>
+        </div>
+      </div>
+
+      <div class="pour-card" data-glow="gold">
+        <span class="pour-badge badge-collab">✦ Collab</span>
+        <div class="pour-liquid"></div>
+        <img class="pour-img" src="https://images.pexels.com/photos/33826046/pexels-photo-33826046.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fusion Tap Latte" loading="lazy">
+        <div class="pour-body">
+          <div class="pour-base">Whiskey · Spiced Honey · Filter Coffee · Gold</div>
+          <div class="pour-name">Fusion Tap Latte</div>
+          <div class="heat-row"><span class="heat-label">Heat</span><div class="heat-dots"><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot"></span><span class="heat-dot"></span></div></div>
+          <div class="pour-vibe">South Indian filter coffee meets aged whiskey, swirled with spiced honey and finished with edible gold dust. Luxury, sipped.</div>
+          <div class="pour-footer"><div class="pour-price">$19</div><button class="pour-cta">ORDER NOW</button></div>
+        </div>
+      </div>
+
+      <div class="pour-card" data-glow="green">
+        <span class="pour-badge badge-hh">🌿 Garden Fresh</span>
+        <div class="pour-liquid"></div>
+        <img class="pour-img" src="https://images.pexels.com/photos/6940092/pexels-photo-6940092.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Garden City Spritz" loading="lazy">
+        <div class="pour-body">
+          <div class="pour-base">Prosecco · Elderflower · Curry Leaf Oil · Yuzu</div>
+          <div class="pour-name">Garden City Spritz</div>
+          <div class="heat-row"><span class="heat-label">Heat</span><div class="heat-dots"><span class="heat-dot"></span><span class="heat-dot"></span><span class="heat-dot"></span><span class="heat-dot"></span><span class="heat-dot"></span></div></div>
+          <div class="pour-vibe">Named after Bengaluru. Lush, alive, impossible to have just one. Curry leaf oil makes it zero-apology Bangalore.</div>
+          <div class="pour-footer"><div class="pour-price">$14</div><button class="pour-cta">ORDER NOW</button></div>
+        </div>
+      </div>
+
+      <div class="pour-card" data-glow="red">
+        <span class="pour-badge badge-trending">🌶️ Spice Alert</span>
+        <div class="pour-liquid"></div>
+        <img class="pour-img" src="https://images.pexels.com/photos/8375042/pexels-photo-8375042.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Texas Paloma" loading="lazy">
+        <div class="pour-body">
+          <div class="pour-base">Reposado Tequila · Grapefruit · Chaat Masala Salt</div>
+          <div class="pour-name">Texas Paloma</div>
+          <div class="heat-row"><span class="heat-label">Heat</span><div class="heat-dots"><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot on"></span><span class="heat-dot"></span></div></div>
+          <div class="pour-vibe">The Lone Star state, spiced up. Chaat masala rim hits different. Dallas crowd approved, Bangalore crowd obsessed.</div>
+          <div class="pour-footer"><div class="pour-price">$16</div><button class="pour-cta">ORDER NOW</button></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FUSION BITES -->
+  <section class="bites-section">
+    <div class="section-label">For the Dallas crew</div>
+    <div class="section-title">FUSION BITES</div>
+    <p style="color:var(--muted);font-size:0.95rem;max-width:520px;margin-bottom:2rem;line-height:1.65;">
+      240+ dishes. Texas comfort food collides with Bangalore street eats. All made fresh. All hits different.
+    </p>
+
+    <div class="bites-tabs">
+      <button class="bites-tab active" onclick="switchBites('hits')">🔥 Hits Different</button>
+      <button class="bites-tab" onclick="switchBites('squad')">👥 For The Squad</button>
+      <button class="bites-tab" onclick="switchBites('lnight')">🌙 Late Night</button>
+      <button class="bites-tab" onclick="switchBites('coastal')">🌊 Coastal</button>
+    </div>
+
+    <div class="bites-panel active" id="bites-hits">
+      <div class="bites-grid">
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/12312104/pexels-photo-12312104.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fusion Tap Chicken Tikka" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag fire">🔥 Fire</span><span class="bite-tag new">Chef's Pick</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Fusion Tap Chicken Tikka</div>
+            <div class="bite-desc">Smoky tandoor tikka, bourbon BBQ glaze, mint chutney, pickled Fresno chilis.</div>
+            <div class="bite-social">"This tikka hits different than anything in Dallas" — @deepellum_eats</div>
+            <div class="bite-footer"><div class="bite-price">$14</div><div class="bite-reorder">↩ 847 reorders this month</div></div>
+          </div>
+        </div>
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Masala Smash Burger" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag fire">Most Ordered</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Masala Smash Burger</div>
+            <div class="bite-desc">Double smash patty, garam masala aioli, crispy onion bhaji, aged cheddar on brioche.</div>
+            <div class="bite-social">"Bro this burger slaps so hard" — @foodieinfrisco</div>
+            <div class="bite-footer"><div class="bite-price">$19</div><div class="bite-reorder">↩ 1.2k reorders this month</div></div>
+          </div>
+        </div>
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/12312104/pexels-photo-12312104.jpeg?auto=compress&cs=tinysrgb&w=600" alt="BBQ Brisket Paratha Roll" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag new">New Drop</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">BBQ Brisket Paratha Roll</div>
+            <div class="bite-desc">Slow-smoked Texas brisket wrapped in flaky paratha, chipotle raita, fried shallots.</div>
+            <div class="bite-social">"The roll that broke the internet at our table" — @dallasgrubclub</div>
+            <div class="bite-footer"><div class="bite-price">$24</div><div class="bite-reorder">↩ 631 reorders this month</div></div>
+          </div>
+        </div>
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/15059796/pexels-photo-15059796.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dallas Hot Wings" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag fire">🌶️ Spicy</span><span class="bite-tag squad">Squad Fave</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Dallas Hot Wings</div>
+            <div class="bite-desc">Crispy wings tossed in Nashville-style hot sauce with a tamarind glaze finish. 6 or 12 pc.</div>
+            <div class="bite-social">"Came for the beer, stayed for the wings" — @bengaluruinDFW</div>
+            <div class="bite-footer"><div class="bite-price">$13</div><div class="bite-reorder">↩ 2.1k reorders this month</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bites-panel" id="bites-squad">
+      <div class="bites-grid">
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Loaded Masala Nachos" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag share">Share It</span><span class="bite-tag fire">🔥</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Loaded Masala Nachos</div>
+            <div class="bite-desc">Tortilla chips, tikka masala pulled chicken, jalapeño raita, aged cheddar, cilantro. Feeds 3-4.</div>
+            <div class="bite-social">"The whole table destroyed these in 4 mins flat" — @squad_nightout</div>
+            <div class="bite-footer"><div class="bite-price">$15</div><div class="bite-reorder">↩ Table share staple</div></div>
+          </div>
+        </div>
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/15059796/pexels-photo-15059796.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Ghee Roast Sliders" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag squad">For The Squad</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Ghee Roast Sliders</div>
+            <div class="bite-desc">Mangalorean chicken ghee roast in brioche sliders, pickled daikon, garlic mayo. 4 pc.</div>
+            <div class="bite-social">"Ordered 3 rounds. Zero regrets." — @foodcoma_dallas</div>
+            <div class="bite-footer"><div class="bite-price">$13</div><div class="bite-reorder">↩ 940 reorders this month</div></div>
+          </div>
+        </div>
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/12312104/pexels-photo-12312104.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dal Makhani Mac" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag veg">Veg</span><span class="bite-tag new">Crowd Fave</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Dal Makhani Mac & Cheese</div>
+            <div class="bite-desc">Slow-cooked black lentil dal folded into creamy mac & cheese. Comfort food redefined.</div>
+            <div class="bite-social">"The most unexpected thing I've eaten in Dallas" — @veganinDTX</div>
+            <div class="bite-footer"><div class="bite-price">$17</div><div class="bite-reorder">↩ 756 reorders this month</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bites-panel" id="bites-lnight">
+      <div class="bites-grid">
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Masala Smash Burger" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag lnight">🌙 Late Night</span><span class="bite-tag fire">Until 1:30AM</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Midnight Masala Burger</div>
+            <div class="bite-desc">The full Masala Smash — but at midnight it hits different. Double patty, spicy mayo, extra bhaji.</div>
+            <div class="bite-social">"Post-concert essential." — @livemusic_dallas</div>
+            <div class="bite-footer"><div class="bite-price">$19</div><div class="bite-reorder">↩ Available until 1:30AM</div></div>
+          </div>
+        </div>
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/15059796/pexels-photo-15059796.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hot Wings Late" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag lnight">🌙 After 11PM</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Late Night Wing Basket</div>
+            <div class="bite-desc">12-piece Dallas hot wings + extra tamarind sauce. The only thing between you and regret.</div>
+            <div class="bite-social">"The 2AM wings that saved the night" — @UT_Dallas_eats</div>
+            <div class="bite-footer"><div class="bite-price">$16</div><div class="bite-reorder">↩ After 11PM only</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bites-panel" id="bites-coastal">
+      <div class="bites-grid">
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/12312104/pexels-photo-12312104.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Chicken Ghee Roast" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag new">Chef's Pick</span><span class="bite-tag fire">🌶️</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Chicken Ghee Roast</div>
+            <div class="bite-desc">Classic Kundapur-style ghee roast, appam, coconut vinegar reduction. A Bangalore staple in Dallas.</div>
+            <div class="bite-social">"Tastes exactly like home. I cried a little." — @bangalorean_in_dallas</div>
+            <div class="bite-footer"><div class="bite-price">$22</div><div class="bite-reorder">↩ 1.4k reorders this month</div></div>
+          </div>
+        </div>
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/15059796/pexels-photo-15059796.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Coastal Prawn Curry" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag fire">🌶️</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Coastal Prawn Curry</div>
+            <div class="bite-desc">Mangalorean coconut prawn curry, Goan pão bread, fresh kokum. The ocean on a plate.</div>
+            <div class="bite-social">"Best seafood in Dallas, no contest." — @eater_dfw</div>
+            <div class="bite-footer"><div class="bite-price">$26</div><div class="bite-reorder">↩ 522 reorders this month</div></div>
+          </div>
+        </div>
+        <div class="bite-card">
+          <div class="bite-img-wrap">
+            <img class="bite-img" src="https://images.pexels.com/photos/15059796/pexels-photo-15059796.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Nuchiunde" loading="lazy">
+            <div class="bite-img-overlay"></div>
+            <div class="bite-img-tags"><span class="bite-tag veg">Veg</span><span class="bite-tag new">Try It</span></div>
+          </div>
+          <div class="bite-body">
+            <div class="bite-name">Nuchiunde Fritters</div>
+            <div class="bite-desc">Traditional Mangalorean black-eyed pea fritters, coconut chutney, curry leaf oil. Light and addictive.</div>
+            <div class="bite-social">"I didn't know what this was — now I order it every time." — @curious_diner_tx</div>
+            <div class="bite-footer"><div class="bite-price">$10</div><div class="bite-reorder">↩ 389 reorders this month</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- EVENTS -->
   <section class="events-teaser" id="events">
     <div class="section-label">What's on</div>
@@ -1022,6 +1461,13 @@
     document.querySelectorAll('.menu-tab').forEach(t => t.classList.remove('active'));
     document.querySelectorAll('.menu-panel').forEach(p => p.classList.remove('active'));
     document.getElementById('panel-' + tab).classList.add('active');
+    event.target.classList.add('active');
+  }
+
+  function switchBites(tab) {
+    document.querySelectorAll('.bites-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.bites-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('bites-' + tab).classList.add('active');
     event.target.classList.add('active');
   }
 
