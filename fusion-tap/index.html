@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Fusion Tap | Dallas Meets Bangalore</title>
+  <title>The Fusion Tap | Where Dallas Meets Bangalore</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanken+Grotesk:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -52,9 +52,17 @@
       position: relative; height: 100vh; display: flex; align-items: center; justify-content: center;
       overflow: hidden; text-align: center;
     }
-    .hero video {
-      position: absolute; inset: 0; width: 100%; height: 100%;
-      object-fit: cover; z-index: 0;
+    .hero-yt {
+      position: absolute; inset: 0; z-index: 0;
+      pointer-events: none; overflow: hidden;
+    }
+    .hero-yt iframe {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200vw; height: 200vh;
+      min-width: 100%; min-height: 100%;
+      border: none;
     }
     .hero-overlay {
       position: absolute; inset: 0; z-index: 1;
@@ -324,10 +332,14 @@
 
   <!-- HERO -->
   <section class="hero" style="padding:0;">
-    <!-- Replace src with your actual video URL -->
-    <video autoplay loop muted playsinline poster="">
-      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-    </video>
+    <!-- Aura 10/10 – Hiphop Tamizha | Meesaya Murukku 2 — muted autoplay background -->
+    <div class="hero-yt">
+      <iframe
+        src="https://www.youtube.com/embed/Aze7zTyIRtk?autoplay=1&mute=1&loop=1&playlist=Aze7zTyIRtk&controls=0&disablekb=1&modestbranding=1&playsinline=1&rel=0&showinfo=0"
+        allow="autoplay; fullscreen"
+        allowfullscreen>
+      </iframe>
+    </div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1>WHERE <span>DALLAS</span><br>MEETS BANGALORE</h1>
@@ -382,9 +394,12 @@
   <!-- VIDEO FEATURE -->
   <section class="video-feature" id="story">
     <div class="video-box">
-      <video autoplay loop muted playsinline>
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <iframe
+        src="https://www.youtube.com/embed/JJgAqYDOsfs?autoplay=1&mute=1&loop=1&playlist=JJgAqYDOsfs&controls=1&modestbranding=1&rel=0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+        style="width:100%;height:100%;position:absolute;inset:0;border:none;">
+      </iframe>
     </div>
     <div class="video-text">
       <div class="section-label">Our story</div>
