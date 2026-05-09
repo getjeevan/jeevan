@@ -232,29 +232,83 @@
     }
     .stat p { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
 
-    /* ── DRINKS ── */
-    .drinks { background: var(--bg); }
-    .drinks-row {
-      display: flex; gap: 1.5rem; overflow-x: auto; padding-bottom: 1.5rem;
-      scrollbar-width: thin; scrollbar-color: var(--teal) var(--surface);
+    /* ── FULL MENU ── */
+    .menu-section { background: var(--bg); }
+    .menu-tabs { display: flex; gap: 0; margin-bottom: 3rem; border-bottom: 1px solid rgba(0,219,231,0.15); }
+    .menu-tab {
+      font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 0.12em;
+      padding: 0.8rem 2rem; color: var(--muted); cursor: pointer; border: none;
+      background: transparent; border-bottom: 3px solid transparent;
+      transition: color .2s, border-color .2s; margin-bottom: -1px;
     }
-    .drink-card {
-      flex: 0 0 260px;
-      background: var(--mahogany);
-      backdrop-filter: blur(12px);
-      border: 1px solid rgba(0,219,231,0.15);
-      padding: 2rem 1.5rem;
-      transition: box-shadow .3s, transform .3s;
-      cursor: pointer;
+    .menu-tab.active { color: var(--teal); border-bottom-color: var(--teal); }
+    .menu-tab:hover { color: var(--text); }
+    .menu-panel { display: none; }
+    .menu-panel.active { display: block; }
+
+    /* beer cards */
+    .beer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.2rem; }
+    .beer-card {
+      background: var(--surface); border: 1px solid rgba(0,219,231,0.1);
+      padding: 1.5rem; transition: box-shadow .3s, transform .3s; cursor: pointer;
     }
-    .drink-card:hover { box-shadow: 0 0 28px rgba(0,219,231,0.22); transform: translateY(-4px); }
-    .drink-emoji { font-size: 2.4rem; margin-bottom: 1rem; }
-    .drink-card h3 {
-      font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 0.08em;
-      margin-bottom: 0.5rem;
+    .beer-card:hover { box-shadow: 0 0 24px rgba(0,219,231,0.18); transform: translateY(-3px); }
+    .beer-style {
+      font-size: 0.65rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 0.5rem;
     }
-    .drink-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; margin-bottom: 1.2rem; }
-    .drink-price { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; color: var(--teal); text-shadow: var(--teal-glow); }
+    .beer-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+    .beer-card p { font-size: 0.82rem; color: var(--muted); line-height: 1.55; margin-bottom: 1rem; }
+    .beer-meta { display: flex; justify-content: space-between; align-items: center; }
+    .beer-price { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; color: var(--teal); }
+    .beer-abv { font-size: 0.7rem; color: var(--muted); }
+    .ibu-bar { height: 3px; background: rgba(0,219,231,0.15); margin: 0.6rem 0; }
+    .ibu-fill { height: 100%; background: var(--teal); }
+
+    /* cocktail cards */
+    .cocktail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.2rem; }
+    .cocktail-card {
+      background: var(--mahogany); backdrop-filter: blur(12px);
+      border: 1px solid rgba(0,219,231,0.15); padding: 1.8rem;
+      transition: box-shadow .3s, transform .3s; cursor: pointer; position: relative;
+    }
+    .cocktail-card:hover { box-shadow: 0 0 28px rgba(0,219,231,0.22); transform: translateY(-4px); }
+    .cocktail-emoji { font-size: 2.2rem; margin-bottom: 0.8rem; }
+    .cocktail-badge {
+      position: absolute; top: 1rem; right: 1rem;
+      font-size: 0.6rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+      color: #000; background: var(--teal); padding: 0.2rem 0.5rem;
+    }
+    .cocktail-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.45rem; letter-spacing: 0.08em; margin-bottom: 0.3rem; }
+    .cocktail-card .base { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.5rem; }
+    .cocktail-card p { font-size: 0.83rem; color: var(--muted); line-height: 1.55; margin-bottom: 1.1rem; }
+    .cocktail-price { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; color: var(--teal); text-shadow: var(--teal-glow); }
+
+    /* food menu */
+    .food-category { margin-bottom: 3rem; }
+    .food-cat-title {
+      font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 0.1em;
+      color: var(--text); border-bottom: 1px solid rgba(0,219,231,0.18);
+      padding-bottom: 0.6rem; margin-bottom: 1.2rem; display: flex; align-items: center; gap: 0.8rem;
+    }
+    .food-cat-title span { color: var(--teal); font-size: 1.2rem; }
+    .food-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.8rem; }
+    .food-item {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      padding: 1rem 1.2rem; background: var(--surface);
+      border: 1px solid rgba(255,255,255,0.04);
+      transition: border-color .25s, background .25s;
+    }
+    .food-item:hover { border-color: rgba(0,219,231,0.2); background: var(--surface-hi); }
+    .food-item-info { flex: 1; padding-right: 1rem; }
+    .food-item-name { font-weight: 700; font-size: 0.9rem; margin-bottom: 0.25rem; color: var(--text); }
+    .food-item-desc { font-size: 0.78rem; color: var(--muted); line-height: 1.45; }
+    .food-item-tags { display: flex; gap: 0.4rem; margin-top: 0.4rem; flex-wrap: wrap; }
+    .food-tag { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.15rem 0.4rem; }
+    .food-tag.veg { background: rgba(0,180,80,0.15); color: #00b450; border: 1px solid rgba(0,180,80,0.3); }
+    .food-tag.spicy { background: rgba(255,80,40,0.12); color: #ff5028; border: 1px solid rgba(255,80,40,0.3); }
+    .food-tag.chef { background: rgba(0,219,231,0.1); color: var(--teal); border: 1px solid rgba(0,219,231,0.3); }
+    .food-item-price { font-family: 'Bebas Neue', sans-serif; font-size: 1.2rem; color: var(--teal); white-space: nowrap; padding-top: 0.1rem; }
 
     /* ── ATMOSPHERE EXPANDED ── */
     .venue-glass { padding: 1.8rem; }
@@ -471,14 +525,15 @@
       <div class="venue-card">
         <div class="venue-card-bg bar"></div>
         <div class="venue-glass">
-          <div class="venue-glass-tag">Est. 2019 · Deep Ellum</div>
+          <div class="venue-glass-tag">The Main Hall · Deep Ellum</div>
           <h3>THE BAR</h3>
-          <p class="tagline">Hand-carved ice. Neon-lit shelves. Bartenders who know your name by round two.</p>
+          <p class="tagline">A 40-foot back bar lit in neon teal. 12 rotating craft taps. Hand-carved ice and bartenders who treat every pour like a ritual.</p>
           <ul class="venue-features">
-            <li>60+ craft spirits from 3 continents</li>
-            <li>Signature Bangalore-Dallas fusion cocktails</li>
-            <li>Whisky wall featuring rare Indian single malts</li>
-            <li>Craft draught — 12 rotating taps</li>
+            <li>12 craft draughts — rotating seasonal taps</li>
+            <li>80+ spirits spanning 4 continents</li>
+            <li>Rare Indian single malts & Texas whiskeys</li>
+            <li>Signature cocktails inspired by Bangalore & Dallas</li>
+            <li>Happy Hour daily 5–9PM — BOGO draughts</li>
           </ul>
           <div class="venue-live-status"><span class="dot"></span> 3 bartenders on now</div>
         </div>
@@ -486,14 +541,15 @@
       <div class="venue-card">
         <div class="venue-card-bg stage"></div>
         <div class="venue-glass">
-          <div class="venue-glass-tag">Live Every Night</div>
+          <div class="venue-glass-tag">Live Every Night · 8PM–2AM</div>
           <h3>THE STAGE</h3>
-          <p class="tagline">Where delta blues shakes hands with Carnatic riffs. No genre is safe here.</p>
+          <p class="tagline">A raised hardwood stage where delta blues meets Carnatic riffs and tabla drops land on 808 grooves. No genre is safe here.</p>
           <ul class="venue-features">
             <li>Live acts 7 nights a week from 8PM</li>
-            <li>Original fusion artists — Dallas & Bangalore circuit</li>
-            <li>Tabla drops, 808s, and everything between</li>
-            <li>Open mic Wednesdays — sign up at the bar</li>
+            <li>Original artists from Dallas & Bangalore circuit</li>
+            <li>Tabla drops, Carnatic improv, jazz, blues & fusion</li>
+            <li>Open mic every Wednesday — sign up at the bar</li>
+            <li>Corner dance floor, no cover before 9PM</li>
           </ul>
           <div class="venue-live-status"><span class="dot"></span> <span id="stage-now-label">Blues Hour — on stage now</span></div>
         </div>
@@ -501,14 +557,15 @@
       <div class="venue-card">
         <div class="venue-card-bg vibe"></div>
         <div class="venue-glass">
-          <div class="venue-glass-tag">The Energy</div>
+          <div class="venue-glass-tag">800 Seats · Two Floors · Rooftop</div>
           <h3>THE VIBE</h3>
-          <p class="tagline">Deep Ellum grit meets Bangalore pulse. Industrial bones, neon soul, zero apologies.</p>
+          <p class="tagline">Inspired by Bangalore's legendary brewery halls — grand, loud, and unapologetically alive. Industrial bones, neon soul, a waterfall feature on the ground floor.</p>
           <ul class="venue-features">
-            <li>300-person capacity across two floors</li>
-            <li>Private booth reservations available</li>
+            <li>800+ capacity across two floors + banquet</li>
+            <li>Indoor neon waterfall feature — a Dallas first</li>
             <li>Rooftop terrace open Fri & Sat</li>
-            <li>Dress code: come as you are</li>
+            <li>Pet-friendly outdoor zones</li>
+            <li>Private booths & banquet hall (200-seat)</li>
           </ul>
           <div class="venue-live-status"><span class="dot"></span> <span id="crowd-vibe-label">Filling up fast tonight</span></div>
         </div>
@@ -593,73 +650,340 @@
     <div class="video-text">
       <div class="section-label">Our story</div>
       <div class="section-title">TWO CITIES.<br>ONE OBSESSION.</div>
-      <p>Born from a late-night argument between a Dallas pitmaster and a Bangalore brewmaster, The Fusion Tap was never meant to make sense. That's exactly why it works.</p>
+      <p>Born from a late-night argument between a Dallas pitmaster and a Bangalore brewmaster, The Fusion Tap was never meant to make sense. That's exactly why it works. Inspired by the grand brewery halls of Marathahalli and the raw energy of Deep Ellum — 800 seats, one neon waterfall, zero compromise.</p>
       <div class="stat-row">
-        <div class="stat"><h3>60+</h3><p>Craft spirits</p></div>
-        <div class="stat"><h3>5★</h3><p>Rated nights</p></div>
+        <div class="stat"><h3>800+</h3><p>Seats capacity</p></div>
+        <div class="stat"><h3>240+</h3><p>Menu items</p></div>
+        <div class="stat"><h3>12</h3><p>Craft draughts</p></div>
         <div class="stat"><h3>7</h3><p>Nights a week</p></div>
       </div>
       <a href="#about" class="btn-ghost">OUR FULL STORY</a>
     </div>
   </section>
 
-  <!-- DRINKS -->
-  <section class="drinks" id="menu">
+  <!-- FULL MENU -->
+  <section class="menu-section" id="menu">
     <div class="section-label">Crafted for the night</div>
-    <div class="section-title">SIGNATURE POURS</div>
-    <div class="drinks-row">
-      <div class="drink-card">
-        <div class="drink-emoji">🖤</div>
-        <h3>Bangalore Noir</h3>
-        <p>Cold brew, dark rum, cardamom bitters. Midnight in a glass.</p>
-        <div class="drink-price">$16</div>
+    <div class="section-title">THE MENU</div>
+
+    <div class="menu-tabs">
+      <button class="menu-tab active" onclick="switchTab('beer')">🍺 CRAFT BEER</button>
+      <button class="menu-tab" onclick="switchTab('cocktails')">🍹 COCKTAILS</button>
+      <button class="menu-tab" onclick="switchTab('food')">🍽 FOOD</button>
+    </div>
+
+    <!-- CRAFT BEER -->
+    <div class="menu-panel active" id="panel-beer">
+      <div class="beer-grid">
+        <div class="beer-card">
+          <div class="beer-style">Belgian Witbier · 4.8% ABV</div>
+          <h3>Bangalore Gold</h3>
+          <p>Wheat malt, orange peel, coriander seed. Bright and hazy like a Bangalore morning.</p>
+          <div class="ibu-bar"><div class="ibu-fill" style="width:18%"></div></div>
+          <div class="beer-meta"><div class="beer-price">₹275 / 500ml</div><div class="beer-abv">IBU 18 · Light</div></div>
+        </div>
+        <div class="beer-card">
+          <div class="beer-style">West Coast IPA · 6.5% ABV</div>
+          <h3>Naught Zero IPA</h3>
+          <p>Bold citrus hops, dry finish, pine resin backbone. The IPA that started arguments.</p>
+          <div class="ibu-bar"><div class="ibu-fill" style="width:72%"></div></div>
+          <div class="beer-meta"><div class="beer-price">₹300 / 500ml</div><div class="beer-abv">IBU 72 · Bitter</div></div>
+        </div>
+        <div class="beer-card">
+          <div class="beer-style">American Wheat · 4.2% ABV</div>
+          <h3>Watermelon Wheat</h3>
+          <p>Summer wheat base with fresh watermelon. Dangerously easy to drink.</p>
+          <div class="ibu-bar"><div class="ibu-fill" style="width:12%"></div></div>
+          <div class="beer-meta"><div class="beer-price">₹250 / 500ml</div><div class="beer-abv">IBU 12 · Crisp</div></div>
+        </div>
+        <div class="beer-card">
+          <div class="beer-style">Saison · 5.2% ABV</div>
+          <h3>Lemongrass Saison</h3>
+          <p>Farmhouse yeast, lemongrass, kaffir lime. A pint that smells like Indiranagar.</p>
+          <div class="ibu-bar"><div class="ibu-fill" style="width:24%"></div></div>
+          <div class="beer-meta"><div class="beer-price">₹275 / 500ml</div><div class="beer-abv">IBU 24 · Spicy</div></div>
+        </div>
+        <div class="beer-card">
+          <div class="beer-style">Berliner Weisse · 3.8% ABV</div>
+          <h3>Tamarind Sour</h3>
+          <p>Tart wheat beer with tamarind wort addition. Sour, funky, refreshing.</p>
+          <div class="ibu-bar"><div class="ibu-fill" style="width:8%"></div></div>
+          <div class="beer-meta"><div class="beer-price">₹275 / 500ml</div><div class="beer-abv">IBU 8 · Tart</div></div>
+        </div>
+        <div class="beer-card">
+          <div class="beer-style">Chocolate Stout · 7.1% ABV</div>
+          <h3>Deep Ellum Dark</h3>
+          <p>Roasted chocolate malt, vanilla, coffee finish. Dallas winters in a pint glass.</p>
+          <div class="ibu-bar"><div class="ibu-fill" style="width:38%"></div></div>
+          <div class="beer-meta"><div class="beer-price">₹300 / 500ml</div><div class="beer-abv">IBU 38 · Rich</div></div>
+        </div>
+        <div class="beer-card">
+          <div class="beer-style">Hefeweizen · 5.0% ABV</div>
+          <h3>Bangalore Hefe</h3>
+          <p>Traditional Bavarian wheat — banana, clove, soft carbonation. Crisp and classic.</p>
+          <div class="ibu-bar"><div class="ibu-fill" style="width:15%"></div></div>
+          <div class="beer-meta"><div class="beer-price">₹275 / 500ml</div><div class="beer-abv">IBU 15 · Smooth</div></div>
+        </div>
+        <div class="beer-card">
+          <div class="beer-style">Belgian Dubbel · 7.8% ABV</div>
+          <h3>Masala Dubbel</h3>
+          <p>Dark fruity Belgian base with cardamom and star anise. Complex and warming.</p>
+          <div class="ibu-bar"><div class="ibu-fill" style="width:28%"></div></div>
+          <div class="beer-meta"><div class="beer-price">₹325 / 500ml</div><div class="beer-abv">IBU 28 · Bold</div></div>
+        </div>
       </div>
-      <div class="drink-card">
-        <div class="drink-emoji">🔥</div>
-        <h3>Deep Ellum Smoke</h3>
-        <p>Mezcal, smoked chili, lime, hickory salt rim. Dallas on fire.</p>
-        <div class="drink-price">$18</div>
+    </div>
+
+    <!-- COCKTAILS -->
+    <div class="menu-panel" id="panel-cocktails">
+      <div class="cocktail-grid">
+        <div class="cocktail-card">
+          <div class="cocktail-emoji">🌹</div>
+          <div class="cocktail-badge">SIGNATURE</div>
+          <h3>Aqua di Roja</h3>
+          <div class="base">Litchi Vodka Base</div>
+          <p>A melange of litchi vodka with toasted sesame seeds, rose water and fresh lychee. Floral, mysterious, unforgettable.</p>
+          <div class="cocktail-price">$17</div>
+        </div>
+        <div class="cocktail-card">
+          <div class="cocktail-emoji">🌌</div>
+          <div class="cocktail-badge">SIGNATURE</div>
+          <h3>Scandinavian Skies</h3>
+          <div class="base">Gin Base</div>
+          <p>A gin-based concoction with fresh coriander, passion fruit and elderflower tonic. Viking cool meets tropical heat.</p>
+          <div class="cocktail-price">$16</div>
+        </div>
+        <div class="cocktail-card">
+          <div class="cocktail-emoji">☕</div>
+          <div class="cocktail-badge">SIGNATURE</div>
+          <h3>Fusion Tap Latte</h3>
+          <div class="base">Whiskey Base</div>
+          <p>Milk shaken and blended with homemade spiced honey infusion, filter coffee and finished with edible gold dust.</p>
+          <div class="cocktail-price">$19</div>
+        </div>
+        <div class="cocktail-card">
+          <div class="cocktail-emoji">🖤</div>
+          <h3>Bangalore Noir</h3>
+          <div class="base">Dark Rum Base</div>
+          <p>Cold brew concentrate, dark rum, cardamom bitters, demerara foam. Midnight in a glass.</p>
+          <div class="cocktail-price">$16</div>
+        </div>
+        <div class="cocktail-card">
+          <div class="cocktail-emoji">🔥</div>
+          <h3>Deep Ellum Smoke</h3>
+          <div class="base">Mezcal Base</div>
+          <p>Mezcal, smoked chili syrup, fresh lime, hickory salt rim. Dallas industrial energy — one sip at a time.</p>
+          <div class="cocktail-price">$18</div>
+        </div>
+        <div class="cocktail-card">
+          <div class="cocktail-emoji">⚡</div>
+          <h3>Electric Chai Mule</h3>
+          <div class="base">Masala Chai Vodka</div>
+          <p>House-infused masala chai vodka, ginger beer, fresh lemon, tulsi leaves. Bangalore meets Moscow.</p>
+          <div class="cocktail-price">$15</div>
+        </div>
+        <div class="cocktail-card">
+          <div class="cocktail-emoji">🥃</div>
+          <h3>Mahogany Old Fashioned</h3>
+          <div class="base">Bourbon Base</div>
+          <p>Aged bourbon, jaggery syrup, tamarind bitters, orange zest. Time well spent at the bar.</p>
+          <div class="cocktail-price">$19</div>
+        </div>
+        <div class="cocktail-card">
+          <div class="cocktail-emoji">🌿</div>
+          <h3>Garden City Spritz</h3>
+          <div class="base">Prosecco Base</div>
+          <p>Elderflower, prosecco, curry leaf oil, yuzu citrus. Lush, alive and impossible to drink just one.</p>
+          <div class="cocktail-price">$14</div>
+        </div>
+        <div class="cocktail-card">
+          <div class="cocktail-emoji">🏜️</div>
+          <h3>Texas Paloma</h3>
+          <div class="base">Tequila Base</div>
+          <p>Reposado tequila, fresh grapefruit, chaat masala salt rim, soda. The Lone Star state, spiced up.</p>
+          <div class="cocktail-price">$16</div>
+        </div>
       </div>
-      <div class="drink-card">
-        <div class="drink-emoji">⚡</div>
-        <h3>Electric Chai Mule</h3>
-        <p>Masala chai vodka, ginger beer, lemon. Bangalore meets Moscow.</p>
-        <div class="drink-price">$15</div>
+    </div>
+
+    <!-- FOOD -->
+    <div class="menu-panel" id="panel-food">
+
+      <div class="food-category">
+        <div class="food-cat-title"><span>🔥</span> SMALL PLATES & STARTERS</div>
+        <div class="food-grid">
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Fusion Tap Chicken Tikka</div>
+              <div class="food-item-desc">Smoky tandoor tikka with bourbon BBQ glaze, mint chutney, pickled onions.</div>
+              <div class="food-item-tags"><span class="food-tag chef">Chef's Pick</span><span class="food-tag spicy">Spicy</span></div>
+            </div>
+            <div class="food-item-price">$14</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Dallas Hot Wings</div>
+              <div class="food-item-desc">Crispy wings tossed in Nashville-style hot sauce with a tamarind glaze finish. 6 or 12 piece.</div>
+              <div class="food-item-tags"><span class="food-tag spicy">Spicy</span></div>
+            </div>
+            <div class="food-item-price">$13</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Nuchiunde (Coastal Fritters)</div>
+              <div class="food-item-desc">Traditional Mangalorean black-eyed pea fritters, coconut chutney, curry leaf oil.</div>
+              <div class="food-item-tags"><span class="food-tag veg">Veg</span><span class="food-tag chef">Chef's Pick</span></div>
+            </div>
+            <div class="food-item-price">$10</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Mensinkai Bhajji</div>
+              <div class="food-item-desc">Coastal green chilli bajji, tangy raw mango pickle, coconut cream dip.</div>
+              <div class="food-item-tags"><span class="food-tag veg">Veg</span><span class="food-tag spicy">Spicy</span></div>
+            </div>
+            <div class="food-item-price">$9</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Loaded Masala Nachos</div>
+              <div class="food-item-desc">Tortilla chips, tikka masala pulled chicken, jalapeño raita, cheddar, cilantro.</div>
+              <div class="food-item-tags"><span class="food-tag spicy">Spicy</span></div>
+            </div>
+            <div class="food-item-price">$15</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Ghee Roast Sliders</div>
+              <div class="food-item-desc">Mangalorean chicken ghee roast in brioche sliders, pickled daikon, garlic mayo.</div>
+              <div class="food-item-tags"><span class="food-tag chef">Chef's Pick</span></div>
+            </div>
+            <div class="food-item-price">$13</div>
+          </div>
+        </div>
       </div>
-      <div class="drink-card">
-        <div class="drink-emoji">🥃</div>
-        <h3>Mahogany Old Fashioned</h3>
-        <p>Aged bourbon, jaggery syrup, tamarind bitters. Time well spent.</p>
-        <div class="drink-price">$19</div>
+
+      <div class="food-category">
+        <div class="food-cat-title"><span>🍽</span> MAINS</div>
+        <div class="food-grid">
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Chicken Ghee Roast</div>
+              <div class="food-item-desc">Classic Kundapur-style ghee roast, appam, coconut vinegar reduction. A Bangalore staple.</div>
+              <div class="food-item-tags"><span class="food-tag chef">Chef's Pick</span><span class="food-tag spicy">Spicy</span></div>
+            </div>
+            <div class="food-item-price">$22</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">BBQ Brisket Paratha Roll</div>
+              <div class="food-item-desc">Slow-smoked Texas brisket, flaky paratha, chipotle raita, fried onions, green chilli.</div>
+              <div class="food-item-tags"><span class="food-tag chef">Chef's Pick</span></div>
+            </div>
+            <div class="food-item-price">$24</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Masala Smash Burger</div>
+              <div class="food-item-desc">Double smash patty, garam masala aioli, crispy onion bhaji, aged cheddar, brioche.</div>
+              <div class="food-item-tags"></div>
+            </div>
+            <div class="food-item-price">$19</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Dal Makhani Mac & Cheese</div>
+              <div class="food-item-desc">Slow-cooked black lentil dal folded into creamy mac & cheese. Comfort food redefined.</div>
+              <div class="food-item-tags"><span class="food-tag veg">Veg</span></div>
+            </div>
+            <div class="food-item-price">$17</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Coastal Prawn Curry</div>
+              <div class="food-item-desc">Mangalorean coconut prawn curry, Goan bread (pão), fresh kokum. The ocean on a plate.</div>
+              <div class="food-item-tags"><span class="food-tag spicy">Spicy</span></div>
+            </div>
+            <div class="food-item-price">$26</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Chicken Steak — Pepper Gravy</div>
+              <div class="food-item-desc">Grilled airline chicken breast, black pepper & bourbon gravy, mashed potato, seasonal greens.</div>
+              <div class="food-item-tags"></div>
+            </div>
+            <div class="food-item-price">$24</div>
+          </div>
+        </div>
       </div>
-      <div class="drink-card">
-        <div class="drink-emoji">🌿</div>
-        <h3>Garden City Spritz</h3>
-        <p>Elderflower, prosecco, curry leaf oil, citrus. Lush and alive.</p>
-        <div class="drink-price">$14</div>
+
+      <div class="food-category">
+        <div class="food-cat-title"><span>🍮</span> DESSERTS</div>
+        <div class="food-grid">
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Gulab Jamun Brownie</div>
+              <div class="food-item-desc">Warm fudge brownie, gulab jamun centre, rose ice cream, pistachio crumble.</div>
+              <div class="food-item-tags"><span class="food-tag veg">Veg</span><span class="food-tag chef">Chef's Pick</span></div>
+            </div>
+            <div class="food-item-price">$10</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Filter Coffee Panna Cotta</div>
+              <div class="food-item-desc">South Indian filter coffee set cream, chicory caramel, dehydrated milk skin.</div>
+              <div class="food-item-tags"><span class="food-tag veg">Veg</span></div>
+            </div>
+            <div class="food-item-price">$9</div>
+          </div>
+          <div class="food-item">
+            <div class="food-item-info">
+              <div class="food-item-name">Banana Foster Halwa</div>
+              <div class="food-item-desc">Banana foster meets semolina halwa — brown butter, rum flame, vanilla bean ice cream.</div>
+              <div class="food-item-tags"><span class="food-tag veg">Veg</span></div>
+            </div>
+            <div class="food-item-price">$11</div>
+          </div>
+        </div>
       </div>
+
     </div>
   </section>
 
-  <!-- EVENTS TEASER -->
+  <!-- EVENTS -->
   <section class="events-teaser" id="events">
     <div class="section-label">What's on</div>
     <div class="section-title">UPCOMING NIGHTS</div>
     <div class="events-grid">
       <div class="event-item">
-        <div class="event-date">FRI 13 JUN — 8PM</div>
+        <div class="event-date">FRI 13 JUN — 8PM · Free Entry</div>
         <h3>BLUES HOUR</h3>
-        <p>Raw delta blues meets Carnatic rhythm. No cover before 9.</p>
+        <p>Raw delta blues meets Carnatic rhythm. Rotating artists from the Dallas & Bangalore circuit. No cover before 9PM.</p>
       </div>
       <div class="event-item">
-        <div class="event-date">SAT 14 JUN — 10PM</div>
+        <div class="event-date">SAT 14 JUN — 10PM · ₹500 Cover</div>
         <h3>FUSION BEATS</h3>
-        <p>Electronic fusion set. Tabla drops over 808s. All night long.</p>
+        <p>Electronic fusion — tabla drops, 808s, live synth. Dallas DJ collective joined by a Bangalore percussionist. All night long.</p>
       </div>
       <div class="event-item">
-        <div class="event-date">SUN 15 JUN — 7PM</div>
+        <div class="event-date">SUN 15 JUN — 7PM · Free Entry</div>
         <h3>SUNDAY SLOW BURN</h3>
-        <p>Jazz trio, half-price pours, no-rush vibes. End the week right.</p>
+        <p>Jazz trio + half-price pours until 9PM. No rush, no dress code, just good music and great food.</p>
+      </div>
+      <div class="event-item">
+        <div class="event-date">WED 18 JUN — 8PM · Free</div>
+        <h3>OPEN MIC NIGHT</h3>
+        <p>Sign up at the bar from 7PM. Genre-free. Tabla, guitar, spoken word — the stage is yours.</p>
+      </div>
+      <div class="event-item">
+        <div class="event-date">THU 19 JUN — 8PM · Free Entry</div>
+        <h3>UGADI SPECIAL MENU</h3>
+        <p>A seasonal rotating menu celebrating South Indian harvest festivals. Special coastal thali + craft beer pairings.</p>
+      </div>
+      <div class="event-item">
+        <div class="event-date">FRI 20 JUN — 9PM · ₹750 Cover</div>
+        <h3>CARNATIC CLUB NIGHT</h3>
+        <p>Carnatic ragas remixed over club beats. A Bangalore tradition lands in Deep Ellum for one night only.</p>
       </div>
     </div>
     <div style="margin-top:2.5rem;">
@@ -693,6 +1017,14 @@
   </footer>
 
   <script>
+  // ── MENU TABS ──
+  function switchTab(tab) {
+    document.querySelectorAll('.menu-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.menu-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('panel-' + tab).classList.add('active');
+    event.target.classList.add('active');
+  }
+
   // ── REALTIME PUB ACTIVITY ──────────────────────────────────────────────
 
   const acts = [
