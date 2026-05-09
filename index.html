@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Fusion Tap | Dallas Meets Bangalore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanken+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --teal:       #00dbe7;
+      --teal-dim:   rgba(0,219,231,0.25);
+      --teal-glow:  0 0 18px rgba(0,219,231,0.45);
+      --bg:         #121414;
+      --surface:    #1a1c1c;
+      --surface-hi: #1e2020;
+      --mahogany:   rgba(78,26,20,0.18);
+      --text:       #e2e2e2;
+      --muted:      #8e9192;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'Hanken Grotesk', sans-serif; overflow-x: hidden; }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.2rem 3rem;
+      background: rgba(18,20,20,0.72);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(0,219,231,0.12);
+    }
+    .nav-logo {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem; letter-spacing: 0.08em;
+      color: var(--text);
+      text-shadow: var(--teal-glow);
+    }
+    .nav-logo span { color: var(--teal); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a {
+      font-family: 'Bebas Neue', sans-serif; font-size: 1.05rem; letter-spacing: 0.1em;
+      color: var(--muted); text-decoration: none; transition: color .2s, text-shadow .2s;
+    }
+    .nav-links a:hover { color: var(--teal); text-shadow: var(--teal-glow); }
+
+    /* ── HERO ── */
+    .hero {
+      position: relative; height: 100vh; display: flex; align-items: center; justify-content: center;
+      overflow: hidden; text-align: center;
+    }
+    .hero video {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; z-index: 0;
+    }
+    .hero-overlay {
+      position: absolute; inset: 0; z-index: 1;
+      background: linear-gradient(to bottom, rgba(18,20,20,0.55) 0%, rgba(18,20,20,0.82) 100%);
+    }
+    .hero-content { position: relative; z-index: 2; max-width: 900px; padding: 0 2rem; }
+
+    .live-chip {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      position: absolute; top: 6rem; right: 3rem; z-index: 3;
+      font-family: 'Hanken Grotesk', sans-serif; font-size: 0.7rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--teal); border: 1px solid var(--teal);
+      padding: 0.35rem 0.85rem;
+      background: rgba(0,219,231,0.08);
+      animation: chip-flicker 3s infinite;
+    }
+    .live-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: #ff4040;
+      box-shadow: 0 0 6px #ff4040;
+      animation: pulse-dot 1.2s ease-in-out infinite;
+    }
+    @keyframes pulse-dot { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.7); } }
+    @keyframes chip-flicker {
+      0%,90%,100% { opacity: 1; }
+      92% { opacity: 0.4; }
+      94% { opacity: 1; }
+      96% { opacity: 0.5; }
+    }
+
+    .hero h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3.2rem, 8vw, 7rem);
+      line-height: 0.95; letter-spacing: 0.04em;
+      color: #fff;
+      text-shadow: 0 0 40px rgba(0,219,231,0.35), 0 0 80px rgba(0,219,231,0.15);
+      margin-bottom: 1.5rem;
+    }
+    .hero h1 span { color: var(--teal); }
+    .hero p {
+      font-size: 1.15rem; color: var(--muted); max-width: 540px; margin: 0 auto 2.5rem;
+      line-height: 1.65;
+    }
+    .btn-group { display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap; }
+    .btn-primary {
+      padding: 0.85rem 2.2rem;
+      background: var(--teal); color: #000;
+      font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 0.12em;
+      border: none; cursor: pointer; text-decoration: none;
+      box-shadow: 0 0 20px rgba(0,219,231,0.5);
+      transition: box-shadow .25s, transform .2s;
+    }
+    .btn-primary:hover { box-shadow: 0 0 36px rgba(0,219,231,0.8); transform: translateY(-2px); }
+    .btn-ghost {
+      padding: 0.85rem 2.2rem;
+      background: transparent; color: var(--text);
+      font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 0.12em;
+      border: 2px solid var(--muted); cursor: pointer; text-decoration: none;
+      transition: border-color .25s, color .25s, box-shadow .25s, transform .2s;
+    }
+    .btn-ghost:hover { border-color: var(--teal); color: var(--teal); box-shadow: var(--teal-glow); transform: translateY(-2px); }
+
+    .scroll-arrow {
+      position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%);
+      z-index: 3; display: flex; flex-direction: column; align-items: center; gap: 4px;
+      animation: bounce 2s ease-in-out infinite;
+    }
+    .scroll-arrow span {
+      display: block; width: 14px; height: 14px;
+      border-right: 2px solid var(--teal); border-bottom: 2px solid var(--teal);
+      transform: rotate(45deg); opacity: 0;
+      animation: arrow-fade 2s infinite;
+    }
+    .scroll-arrow span:nth-child(1) { animation-delay: 0s; }
+    .scroll-arrow span:nth-child(2) { animation-delay: 0.2s; }
+    .scroll-arrow span:nth-child(3) { animation-delay: 0.4s; }
+    @keyframes arrow-fade { 0% { opacity: 0; } 50% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes bounce { 0%,100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(6px); } }
+
+    /* ── MARQUEE STRIP ── */
+    .marquee-strip {
+      background: var(--surface); border-top: 1px solid rgba(0,219,231,0.18);
+      border-bottom: 1px solid rgba(0,219,231,0.18);
+      padding: 0.9rem 0; overflow: hidden;
+    }
+    .marquee-track {
+      display: flex; width: max-content;
+      animation: marquee 28s linear infinite;
+    }
+    .marquee-track span {
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--teal); white-space: nowrap; padding: 0 3rem;
+    }
+    @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+    /* ── SECTION SHARED ── */
+    section { padding: 6rem 3rem; }
+    .section-label {
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 0.6rem;
+    }
+    .section-title {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      letter-spacing: 0.06em; margin-bottom: 3.5rem;
+    }
+
+    /* ── AMBIANCE GRID ── */
+    .ambiance { background: var(--bg); }
+    .ambiance-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .venue-card {
+      position: relative; height: 420px; overflow: hidden;
+      border: 1px solid rgba(0,219,231,0.1);
+      cursor: pointer;
+      transition: transform .35s, box-shadow .35s;
+    }
+    .venue-card:hover { transform: scale(1.02); box-shadow: 0 0 40px rgba(0,219,231,0.2); }
+    .venue-card-bg {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .venue-card-bg.bar    { background: linear-gradient(135deg, #1a0c0a 0%, #2d1208 50%, #121414 100%); }
+    .venue-card-bg.stage  { background: linear-gradient(135deg, #0a0d1a 0%, #0d1a2e 50%, #121414 100%); }
+    .venue-card-bg.vibe   { background: linear-gradient(135deg, #0d1a0d 0%, #001515 50%, #121414 100%); }
+    .venue-icon { font-size: 5rem; opacity: 0.18; }
+    .venue-glass {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: var(--mahogany);
+      backdrop-filter: blur(12px);
+      border-top: 1px solid rgba(0,219,231,0.2);
+      padding: 1.5rem;
+    }
+    .venue-glass h3 {
+      font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.12em;
+      color: #fff; margin-bottom: 0.3rem;
+    }
+    .venue-glass p { font-size: 0.85rem; color: var(--muted); }
+
+    /* ── VIDEO FEATURE ── */
+    .video-feature {
+      background: var(--surface);
+      display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;
+    }
+    .video-box {
+      position: relative; aspect-ratio: 16/9; overflow: hidden;
+      border: 1px solid rgba(0,219,231,0.2);
+      box-shadow: 0 0 40px rgba(0,219,231,0.12);
+    }
+    .video-box video { width: 100%; height: 100%; object-fit: cover; }
+    .video-box::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(to right, transparent 70%, var(--surface));
+    }
+    .video-text p { color: var(--muted); line-height: 1.75; margin-bottom: 2rem; }
+    .stat-row { display: flex; gap: 3rem; margin-bottom: 2.5rem; }
+    .stat h3 {
+      font-family: 'Bebas Neue', sans-serif; font-size: 3rem;
+      color: var(--teal); text-shadow: var(--teal-glow); letter-spacing: 0.04em;
+    }
+    .stat p { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+
+    /* ── DRINKS ── */
+    .drinks { background: var(--bg); }
+    .drinks-row {
+      display: flex; gap: 1.5rem; overflow-x: auto; padding-bottom: 1.5rem;
+      scrollbar-width: thin; scrollbar-color: var(--teal) var(--surface);
+    }
+    .drink-card {
+      flex: 0 0 260px;
+      background: var(--mahogany);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(0,219,231,0.15);
+      padding: 2rem 1.5rem;
+      transition: box-shadow .3s, transform .3s;
+      cursor: pointer;
+    }
+    .drink-card:hover { box-shadow: 0 0 28px rgba(0,219,231,0.22); transform: translateY(-4px); }
+    .drink-emoji { font-size: 2.4rem; margin-bottom: 1rem; }
+    .drink-card h3 {
+      font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 0.08em;
+      margin-bottom: 0.5rem;
+    }
+    .drink-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; margin-bottom: 1.2rem; }
+    .drink-price { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; color: var(--teal); text-shadow: var(--teal-glow); }
+
+    /* ── EVENTS TEASER ── */
+    .events-teaser { background: var(--surface-hi); }
+    .events-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+    .event-item {
+      border: 1px solid rgba(0,219,231,0.12); padding: 1.5rem;
+      transition: border-color .3s, box-shadow .3s;
+    }
+    .event-item:hover { border-color: var(--teal); box-shadow: var(--teal-glow); }
+    .event-date { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal); margin-bottom: 0.5rem; }
+    .event-item h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+    .event-item p { font-size: 0.83rem; color: var(--muted); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: #0d0e0f;
+      border-top: 1px solid rgba(0,219,231,0.15);
+    }
+    .footer-banner {
+      text-align: center; padding: 5rem 3rem 3rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .footer-banner h2 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3rem, 7vw, 6rem);
+      letter-spacing: 0.06em;
+      color: #fff; text-shadow: 0 0 30px rgba(0,219,231,0.2);
+      margin-bottom: 0.8rem;
+    }
+    .footer-banner p { color: var(--muted); margin-bottom: 2.5rem; font-size: 1rem; }
+    .footer-bottom {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 2rem 3rem; flex-wrap: wrap; gap: 1.5rem;
+    }
+    .footer-logo { font-family: 'Bebas Neue', sans-serif; font-size: 1.4rem; letter-spacing: 0.1em; }
+    .footer-logo span { color: var(--teal); }
+    .footer-links { display: flex; gap: 2rem; list-style: none; }
+    .footer-links a { font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: var(--teal); }
+    .socials { display: flex; gap: 1.2rem; }
+    .socials a {
+      width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
+      border: 1px solid rgba(0,219,231,0.25); color: var(--muted); font-size: 0.85rem;
+      text-decoration: none; transition: border-color .25s, color .25s, box-shadow .25s;
+    }
+    .socials a:hover { border-color: var(--teal); color: var(--teal); box-shadow: var(--teal-glow); }
+    .copyright { font-size: 0.75rem; color: var(--muted); opacity: 0.6; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { display: none; }
+      section { padding: 4rem 1.5rem; }
+      .ambiance-grid, .events-grid { grid-template-columns: 1fr; }
+      .video-feature { grid-template-columns: 1fr; }
+      .video-box::after { display: none; }
+      .stat-row { gap: 2rem; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">The Fusion<span>Tap</span></div>
+    <ul class="nav-links">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reserve">Reserve</a></li>
+    </ul>
+    <a href="#reserve" class="btn-primary" style="font-size:0.85rem;padding:0.6rem 1.5rem;">BOOK A TABLE</a>
+  </nav>
+
+  <!-- LIVE CHIP -->
+  <div class="live-chip">
+    <span class="live-dot"></span>
+    LIVE TONIGHT
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" style="padding:0;">
+    <!-- Replace src with your actual video URL -->
+    <video autoplay loop muted playsinline poster="">
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>WHERE <span>DALLAS</span><br>MEETS BANGALORE</h1>
+      <p>Industrial-chic cocktails. Neon nights. Two cities. One legendary tap.</p>
+      <div class="btn-group">
+        <a href="#reserve" class="btn-primary">RESERVE A TABLE</a>
+        <a href="#menu" class="btn-ghost">VIEW MENU</a>
+      </div>
+    </div>
+    <div class="scroll-arrow">
+      <span></span><span></span><span></span>
+    </div>
+  </section>
+
+  <!-- MARQUEE STRIP -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>🎸 BLUES HOUR 8PM &nbsp;•&nbsp; 🥁 FUSION BEATS 10PM &nbsp;•&nbsp; 🎷 JAZZ LATE NIGHT 12AM &nbsp;•&nbsp; 🎸 BLUES HOUR 8PM &nbsp;•&nbsp; 🥁 FUSION BEATS 10PM &nbsp;•&nbsp; 🎷 JAZZ LATE NIGHT 12AM &nbsp;•&nbsp;</span>
+      <span>🎸 BLUES HOUR 8PM &nbsp;•&nbsp; 🥁 FUSION BEATS 10PM &nbsp;•&nbsp; 🎷 JAZZ LATE NIGHT 12AM &nbsp;•&nbsp; 🎸 BLUES HOUR 8PM &nbsp;•&nbsp; 🥁 FUSION BEATS 10PM &nbsp;•&nbsp; 🎷 JAZZ LATE NIGHT 12AM &nbsp;•&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- AMBIANCE -->
+  <section class="ambiance" id="about">
+    <div class="section-label">Experience the space</div>
+    <div class="section-title">THE ATMOSPHERE</div>
+    <div class="ambiance-grid">
+      <div class="venue-card">
+        <div class="venue-card-bg bar"><span class="venue-icon">🥃</span></div>
+        <div class="venue-glass">
+          <h3>THE BAR</h3>
+          <p>60+ craft spirits. Hand-carved ice. Neon-lit shelves.</p>
+        </div>
+      </div>
+      <div class="venue-card">
+        <div class="venue-card-bg stage"><span class="venue-icon">🎸</span></div>
+        <div class="venue-glass">
+          <h3>THE STAGE</h3>
+          <p>Live acts every night. Fusion beats hit at 10.</p>
+        </div>
+      </div>
+      <div class="venue-card">
+        <div class="venue-card-bg vibe"><span class="venue-icon">✨</span></div>
+        <div class="venue-glass">
+          <h3>THE VIBE</h3>
+          <p>Deep Ellum grit meets Bangalore pulse. Zero apologies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO FEATURE -->
+  <section class="video-feature" id="story">
+    <div class="video-box">
+      <video autoplay loop muted playsinline>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="video-text">
+      <div class="section-label">Our story</div>
+      <div class="section-title">TWO CITIES.<br>ONE OBSESSION.</div>
+      <p>Born from a late-night argument between a Dallas pitmaster and a Bangalore brewmaster, The Fusion Tap was never meant to make sense. That's exactly why it works.</p>
+      <div class="stat-row">
+        <div class="stat"><h3>60+</h3><p>Craft spirits</p></div>
+        <div class="stat"><h3>5★</h3><p>Rated nights</p></div>
+        <div class="stat"><h3>7</h3><p>Nights a week</p></div>
+      </div>
+      <a href="#about" class="btn-ghost">OUR FULL STORY</a>
+    </div>
+  </section>
+
+  <!-- DRINKS -->
+  <section class="drinks" id="menu">
+    <div class="section-label">Crafted for the night</div>
+    <div class="section-title">SIGNATURE POURS</div>
+    <div class="drinks-row">
+      <div class="drink-card">
+        <div class="drink-emoji">🖤</div>
+        <h3>Bangalore Noir</h3>
+        <p>Cold brew, dark rum, cardamom bitters. Midnight in a glass.</p>
+        <div class="drink-price">$16</div>
+      </div>
+      <div class="drink-card">
+        <div class="drink-emoji">🔥</div>
+        <h3>Deep Ellum Smoke</h3>
+        <p>Mezcal, smoked chili, lime, hickory salt rim. Dallas on fire.</p>
+        <div class="drink-price">$18</div>
+      </div>
+      <div class="drink-card">
+        <div class="drink-emoji">⚡</div>
+        <h3>Electric Chai Mule</h3>
+        <p>Masala chai vodka, ginger beer, lemon. Bangalore meets Moscow.</p>
+        <div class="drink-price">$15</div>
+      </div>
+      <div class="drink-card">
+        <div class="drink-emoji">🥃</div>
+        <h3>Mahogany Old Fashioned</h3>
+        <p>Aged bourbon, jaggery syrup, tamarind bitters. Time well spent.</p>
+        <div class="drink-price">$19</div>
+      </div>
+      <div class="drink-card">
+        <div class="drink-emoji">🌿</div>
+        <h3>Garden City Spritz</h3>
+        <p>Elderflower, prosecco, curry leaf oil, citrus. Lush and alive.</p>
+        <div class="drink-price">$14</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS TEASER -->
+  <section class="events-teaser" id="events">
+    <div class="section-label">What's on</div>
+    <div class="section-title">UPCOMING NIGHTS</div>
+    <div class="events-grid">
+      <div class="event-item">
+        <div class="event-date">FRI 13 JUN — 8PM</div>
+        <h3>BLUES HOUR</h3>
+        <p>Raw delta blues meets Carnatic rhythm. No cover before 9.</p>
+      </div>
+      <div class="event-item">
+        <div class="event-date">SAT 14 JUN — 10PM</div>
+        <h3>FUSION BEATS</h3>
+        <p>Electronic fusion set. Tabla drops over 808s. All night long.</p>
+      </div>
+      <div class="event-item">
+        <div class="event-date">SUN 15 JUN — 7PM</div>
+        <h3>SUNDAY SLOW BURN</h3>
+        <p>Jazz trio, half-price pours, no-rush vibes. End the week right.</p>
+      </div>
+    </div>
+    <div style="margin-top:2.5rem;">
+      <a href="#" class="btn-ghost">ALL EVENTS →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="reserve">
+    <div class="footer-banner">
+      <h2>OPEN NIGHTLY<br>5PM – 2AM</h2>
+      <p>2847 Commerce St, Deep Ellum, Dallas TX 75226</p>
+      <a href="tel:+14695550192" class="btn-primary" style="font-size:1rem;margin-bottom:1.5rem;display:inline-block;">BOOK YOUR NIGHT</a>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-logo">The Fusion<span>Tap</span></div>
+      <ul class="footer-links">
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Reservations</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="socials">
+        <a href="#" title="Instagram">IG</a>
+        <a href="#" title="Twitter/X">𝕏</a>
+        <a href="#" title="Facebook">FB</a>
+        <a href="#" title="TikTok">TK</a>
+      </div>
+      <div class="copyright">© 2026 The Fusion Tap. All rights reserved.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
