@@ -18,20 +18,22 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 
-# Install MCP server dependencies
+# Install MCP server dependencies (kali + jupyter servers share the same deps)
 COPY package.json ./
 RUN npm install --omit=dev
 
-# Copy MCP server
+# Copy both MCP servers
 COPY mcp-server.mjs ./
+COPY jupyter-mcp-server.mjs ./
 
-# Entrypoint
+# Entrypoint starts kali-mcp by default;
+# jupyter-mcp overrides CMD in docker-compose
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-# Workspace for shared files
 RUN mkdir -p /workspace
 
-EXPOSE 8080
+EXPOSE 8080 8081
 
 ENTRYPOINT ["/entrypoint.sh"]
+CMD ["node", "/app/mcp-server.mjs"]
