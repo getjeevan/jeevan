@@ -1,5 +1,8 @@
 import type { Firewall, VPNTunnel, TunnelState } from "@shared/schema";
 import { randomUUID } from "crypto";
+import https from "https";
+
+const httpsAgent = new https.Agent({ rejectUnauthorized: false });
 
 interface IKEGatewayEntry {
   name: string;
@@ -50,34 +53,43 @@ export class PaloAltoAPIClient {
       key: this.firewall.apiKey,
     });
 
-    const url = `${this.baseUrl}?${params.toString()}`;
-    
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 30000);
+    const fullUrl = new URL(`${this.baseUrl}?${params.toString()}`);
 
-    try {
-      const response = await fetch(url, {
-        method: "GET",
-        signal: controller.signal,
-        headers: {
-          "Accept": "application/xml",
+    return new Promise((resolve, reject) => {
+      const timer = setTimeout(() => {
+        req.destroy(new Error("Connection timeout - firewall did not respond within 30 seconds"));
+      }, 30000);
+
+      const req = https.request(
+        {
+          hostname: fullUrl.hostname,
+          port: fullUrl.port || 443,
+          path: `${fullUrl.pathname}${fullUrl.search}`,
+          method: "GET",
+          headers: { Accept: "application/xml" },
+          agent: httpsAgent,
         },
+        (res) => {
+          clearTimeout(timer);
+          if (res.statusCode && res.statusCode >= 400) {
+            reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
+            res.resume();
+            return;
+          }
+          const chunks: Buffer[] = [];
+          res.on("data", (chunk) => chunks.push(chunk));
+          res.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
+          res.on("error", reject);
+        }
+      );
+
+      req.on("error", (err) => {
+        clearTimeout(timer);
+        reject(err);
       });
 
-      clearTimeout(timeoutId);
-
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-      }
-
-      return await response.text();
-    } catch (error: any) {
-      clearTimeout(timeoutId);
-      if (error.name === "AbortError") {
-        throw new Error("Connection timeout - firewall did not respond within 30 seconds");
-      }
-      throw error;
-    }
+      req.end();
+    });
   }
 
   async testConnection(): Promise<boolean> {
