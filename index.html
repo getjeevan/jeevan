@@ -401,7 +401,8 @@
   <section class="video-feature" id="story">
     <div class="video-box">
       <iframe
-        src="https://www.youtube.com/embed/JJgAqYDOsfs?autoplay=1&mute=1&loop=1&playlist=JJgAqYDOsfs&controls=1&modestbranding=1&rel=0&start=20"
+        id="gaana-gang-player"
+        src="https://www.youtube.com/embed/JJgAqYDOsfs?autoplay=1&mute=1&loop=1&playlist=JJgAqYDOsfs&controls=1&modestbranding=1&rel=0&start=20&enablejsapi=1"
         allow="autoplay; fullscreen"
         allowfullscreen
         style="width:100%;height:100%;position:absolute;inset:0;border:none;">
@@ -509,5 +510,26 @@
     </div>
   </footer>
 
+  <script>
+    // YouTube IFrame API — restart Gaana Gang video at 20s on every loop
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    document.head.appendChild(tag);
+
+    var gaanaPlayer;
+    function onYouTubeIframeAPIReady() {
+      gaanaPlayer = new YT.Player('gaana-gang-player', {
+        events: {
+          onStateChange: function(e) {
+            // When video ends (state=0) seek back to 20s
+            if (e.data === YT.PlayerState.ENDED) {
+              gaanaPlayer.seekTo(20);
+              gaanaPlayer.playVideo();
+            }
+          }
+        }
+      });
+    }
+  </script>
 </body>
 </html>
