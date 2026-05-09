@@ -183,12 +183,18 @@
     .venue-card:hover { transform: scale(1.02); box-shadow: 0 0 40px rgba(0,219,231,0.2); }
     .venue-card-bg {
       position: absolute; inset: 0;
-      display: flex; align-items: center; justify-content: center;
+      background-size: cover; background-position: center;
+      transition: transform .5s ease;
     }
-    .venue-card-bg.bar    { background: linear-gradient(135deg, #1a0c0a 0%, #2d1208 50%, #121414 100%); }
-    .venue-card-bg.stage  { background: linear-gradient(135deg, #0a0d1a 0%, #0d1a2e 50%, #121414 100%); }
-    .venue-card-bg.vibe   { background: linear-gradient(135deg, #0d1a0d 0%, #001515 50%, #121414 100%); }
-    .venue-icon { font-size: 5rem; opacity: 0.18; }
+    .venue-card:hover .venue-card-bg { transform: scale(1.06); }
+    .venue-card-bg.bar   { background-image: url('https://images.pexels.com/photos/2972958/pexels-photo-2972958.jpeg?auto=compress&cs=tinysrgb&w=900'); }
+    .venue-card-bg.stage { background-image: url('https://images.pexels.com/photos/167605/pexels-photo-167605.jpeg?auto=compress&cs=tinysrgb&w=900'); }
+    .venue-card-bg.vibe  { background-image: url('https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg?auto=compress&cs=tinysrgb&w=900'); }
+    /* dark tint over images so glass overlay text stays readable */
+    .venue-card-bg::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to bottom, rgba(18,20,20,0.35) 0%, rgba(18,20,20,0.15) 100%);
+    }
     .venue-glass {
       position: absolute; bottom: 0; left: 0; right: 0;
       background: var(--mahogany);
@@ -368,21 +374,21 @@
     <div class="section-title">THE ATMOSPHERE</div>
     <div class="ambiance-grid">
       <div class="venue-card">
-        <div class="venue-card-bg bar"><span class="venue-icon">🥃</span></div>
+        <div class="venue-card-bg bar"></div>
         <div class="venue-glass">
           <h3>THE BAR</h3>
           <p>60+ craft spirits. Hand-carved ice. Neon-lit shelves.</p>
         </div>
       </div>
       <div class="venue-card">
-        <div class="venue-card-bg stage"><span class="venue-icon">🎸</span></div>
+        <div class="venue-card-bg stage"></div>
         <div class="venue-glass">
           <h3>THE STAGE</h3>
           <p>Live acts every night. Fusion beats hit at 10.</p>
         </div>
       </div>
       <div class="venue-card">
-        <div class="venue-card-bg vibe"><span class="venue-icon">✨</span></div>
+        <div class="venue-card-bg vibe"></div>
         <div class="venue-glass">
           <h3>THE VIBE</h3>
           <p>Deep Ellum grit meets Bangalore pulse. Zero apologies.</p>
