@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  kali-os:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kali-os
+    hostname: kali
+    volumes:
+      # Shared workspace between host and container
+      - ./workspace:/home/operator/workspace
+      # Persist home directory (tools, configs, history)
+      - kali-home:/home/operator
+    environment:
+      - TERM=xterm-256color
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    # Give container access to host network for scanning tools
+    network_mode: host
+    # Required capabilities for network tools (nmap, tcpdump, etc.)
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    security_opt:
+      - no-new-privileges:false
+
+volumes:
+  kali-home:
