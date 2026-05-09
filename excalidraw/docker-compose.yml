@@ -2,14 +2,16 @@ version: '3.8'
 
 services:
   excalidraw:
-    image: excalidraw/excalidraw:latest
+    image: nginx:alpine
     container_name: excalidraw
     ports:
       - "3333:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html:ro
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:80"]
       interval: 15s
       timeout: 5s
       retries: 3
-      start_period: 10s
+      start_period: 5s
