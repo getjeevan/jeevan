@@ -16,25 +16,23 @@ RUN apt-get update && apt-get install -y \
     unzip \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Install Claude Code CLI globally
-RUN npm install -g @anthropic-ai/claude-code
-
-# Pre-install MCP servers globally so npx doesn't need to fetch them each time
+# Install Claude Code CLI and MCP filesystem server globally
 RUN npm install -g \
-    @modelcontextprotocol/server-filesystem \
-    @modelcontextprotocol/server-brave-search
+    @anthropic-ai/claude-code \
+    @modelcontextprotocol/server-filesystem
 
 # Create non-root user (Claude Code requires non-root)
 RUN useradd -m -s /bin/bash claude && \
-    mkdir -p /home/claude/.claude
+    mkdir -p /home/claude
 
 WORKDIR /workspace
 RUN chown -R claude:claude /workspace /home/claude
 
+COPY --chown=claude:claude entrypoint.sh /home/claude/entrypoint.sh
+RUN chmod +x /home/claude/entrypoint.sh
+
 USER claude
 ENV PATH="/home/claude/.local/bin:/usr/local/bin:$PATH"
 
-# Claude Code reads MCP config from ~/.claude.json
-COPY --chown=claude:claude claude.json /home/claude/.claude.json
-
+ENTRYPOINT ["/home/claude/entrypoint.sh"]
 CMD ["bash"]
