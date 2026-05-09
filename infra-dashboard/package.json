@@ -1,0 +1,13 @@
+{
+  "name": "infra-dashboard",
+  "version": "1.0.0",
+  "description": "APM/ADM monitoring dashboard for on-prem infrastructure",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Infra Dashboard</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg:#0f172a;--bg2:#1e293b;--bg3:#334155;
+    --ok:#22c55e;--warn:#f59e0b;--err:#ef4444;--info:#38bdf8;
+    --text:#e2e8f0;--muted:#94a3b8;--border:#334155;
+    --card:#1e293b;--card2:#253044;
+  }
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;font-size:14px;min-height:100vh}
+  header{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;background:var(--bg2);border-bottom:1px solid var(--border)}
+  header h1{font-size:18px;font-weight:700;letter-spacing:0.5px;color:#f1f5f9}
+  header h1 span{color:var(--info);margin-right:8px}
+  .hdr-right{display:flex;align-items:center;gap:16px}
+  #clock{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+  #conn-dot{width:8px;height:8px;border-radius:50%;background:var(--err)}
+  #conn-dot.live{background:var(--ok);box-shadow:0 0 6px var(--ok)}
+  .refresh-btn{background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:4px 12px;border-radius:6px;cursor:pointer;font-size:12px;transition:background .15s}
+  .refresh-btn:hover{background:#475569}
+
+  main{padding:20px 24px;max-width:1400px;margin:0 auto}
+
+  /* summary strip */
+  .summary{display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap}
+  .stat-pill{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:10px 18px;display:flex;flex-direction:column;min-width:120px}
+  .stat-pill .val{font-size:22px;font-weight:700}
+  .stat-pill .lbl{font-size:11px;color:var(--muted);text-transform:uppercase;margin-top:2px;letter-spacing:.5px}
+  .stat-pill.ok .val{color:var(--ok)}
+  .stat-pill.err .val{color:var(--err)}
+  .stat-pill.warn .val{color:var(--warn)}
+
+  /* topology */
+  .topo-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:20px}
+  .section-title{font-size:12px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+  .section-title::after{content:'';flex:1;height:1px;background:var(--border)}
+  #topo-svg{width:100%;height:180px}
+
+  /* service grid */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-bottom:20px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px;position:relative;overflow:hidden;transition:border-color .2s}
+  .card:hover{border-color:#475569}
+  .card-status-bar{position:absolute;top:0;left:0;right:0;height:3px;background:var(--err);transition:background .4s}
+  .card-status-bar.ok{background:var(--ok)}
+  .card-status-bar.checking{background:var(--warn)}
+  .card-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;margin-top:4px}
+  .card-name{font-weight:600;font-size:14px}
+  .badge{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:600;text-transform:uppercase}
+  .badge.ok{background:#14532d;color:var(--ok)}
+  .badge.err{background:#450a0a;color:var(--err)}
+  .badge.unknown{background:#1e293b;color:var(--muted)}
+  .card-meta{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-bottom:10px}
+  .meta-item{display:flex;flex-direction:column}
+  .meta-item .k{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+  .meta-item .v{font-size:12px;font-variant-numeric:tabular-nums}
+  .sparkline-wrap{height:36px}
+  canvas.spark{width:100%;height:36px}
+  .tag-group{font-size:10px;color:var(--muted);margin-top:6px}
+
+  /* containers table */
+  .containers-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:20px;overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  th{text-align:left;padding:6px 10px;color:var(--muted);font-weight:500;border-bottom:1px solid var(--border)}
+  td{padding:7px 10px;border-bottom:1px solid #1e293b;vertical-align:middle}
+  tr:last-child td{border-bottom:none}
+  tr:hover td{background:var(--card2)}
+  .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:middle}
+  .dot.running{background:var(--ok);box-shadow:0 0 4px var(--ok)}
+  .dot.exited,.dot.dead{background:var(--err)}
+  .dot.paused,.dot.created,.dot.restarting{background:var(--warn)}
+
+  /* event log */
+  .log-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:16px}
+  #event-log{list-style:none;max-height:200px;overflow-y:auto;font-size:12px;font-family:monospace}
+  #event-log li{padding:3px 0;color:var(--muted);border-bottom:1px solid #1e293b22;display:flex;gap:8px}
+  #event-log li .ts{color:#475569;white-space:nowrap}
+  #event-log li .msg{color:var(--text)}
+  #event-log li.ok .msg{color:var(--ok)}
+  #event-log li.err .msg{color:var(--err)}
+
+  footer{text-align:center;color:#334155;font-size:11px;padding:16px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span>⬡</span>Infra Dashboard</h1>
+  <div class="hdr-right">
+    <span id="clock"></span>
+    <span id="conn-dot" title="SSE connection"></span>
+    <button class="refresh-btn" onclick="manualRefresh()">↻ Refresh</button>
+  </div>
+</header>
+
+<main>
+  <!-- Summary pills -->
+  <div class="summary" id="summary"></div>
+
+  <!-- Topology SVG -->
+  <div class="topo-wrap">
+    <div class="section-title">Network Topology</div>
+    <svg id="topo-svg" viewBox="0 0 900 160" preserveAspectRatio="xMidYMid meet"></svg>
+  </div>
+
+  <!-- Service cards -->
+  <div class="section-title" style="margin-bottom:10px">Services</div>
+  <div class="grid" id="service-grid"></div>
+
+  <!-- Docker containers -->
+  <div class="containers-wrap">
+    <div class="section-title">Docker Containers</div>
+    <table id="container-table">
+      <thead>
+        <tr>
+          <th>Container</th><th>Image</th><th>State</th><th>Status</th><th>Ports</th>
+        </tr>
+      </thead>
+      <tbody id="container-tbody"></tbody>
+    </table>
+  </div>
+
+  <!-- Event log -->
+  <div class="log-wrap">
+    <div class="section-title">Event Log</div>
+    <ul id="event-log"></ul>
+  </div>
+</main>
+
+<footer>Auto-refreshes every 30s · SSE live stream · On-prem only</footer>
+
+<script>
+const SERVICES_META = {
+  vpnwatch:        { label: "VPNWatch",          port: 3225,  group: "On-Prem",   url: null },
+  kaliMcp:         { label: "Kali MCP",           port: 8080,  group: "On-Prem",   url: null },
+  jupyterMcp:      { label: "Jupyter MCP",        port: 8081,  group: "On-Prem",   url: null },
+  excalidraw:      { label: "Excalidraw",         port: 3333,  group: "On-Prem",   url: null },
+  jupyterExternal: { label: "vasi.ai Jupyter",    port: 32225, group: "External",  url: "https://65.95.15.70:32225" },
+  hostinger:       { label: "Hostinger",          port: null,  group: "Hostinger", url: null },
+};
+
+let latestStatus = null;
+
+// ── Clock ────────────────────────────────────────────────────────────────────
+function tick() {
+  document.getElementById("clock").textContent = new Date().toLocaleTimeString();
+}
+setInterval(tick, 1000); tick();
+
+// ── SSE ──────────────────────────────────────────────────────────────────────
+let evtSrc;
+function connectSSE() {
+  if (evtSrc) evtSrc.close();
+  evtSrc = new EventSource("/events");
+  evtSrc.onopen = () => {
+    document.getElementById("conn-dot").classList.add("live");
+    logEvent("SSE connected", "ok");
+  };
+  evtSrc.onerror = () => {
+    document.getElementById("conn-dot").classList.remove("live");
+    logEvent("SSE disconnected — retrying…", "err");
+    setTimeout(connectSSE, 5000);
+  };
+  evtSrc.onmessage = (e) => {
+    try { render(JSON.parse(e.data)); } catch(_) {}
+  };
+}
+connectSSE();
+
+// ── Manual refresh ────────────────────────────────────────────────────────────
+function manualRefresh() {
+  fetch("/api/refresh", { method: "POST" });
+  logEvent("Manual refresh triggered", "");
+}
+
+// ── Render ────────────────────────────────────────────────────────────────────
+function render(status) {
+  latestStatus = status;
+  renderSummary(status);
+  renderCards(status);
+  renderContainers(status.containers);
+  renderTopology(status);
+}
+
+// Summary pills
+function renderSummary(status) {
+  const svcs = Object.values(status.services).filter(Boolean);
+  const ok = svcs.filter(s => s.ok).length;
+  const err = svcs.length - ok;
+  const containers = Array.isArray(status.containers) ? status.containers : [];
+  const running = containers.filter(c => c.state === "running").length;
+
+  document.getElementById("summary").innerHTML = `
+    <div class="stat-pill ${ok===svcs.length?'ok':err>0?'err':'warn'}">
+      <span class="val">${ok}/${svcs.length}</span><span class="lbl">Services OK</span>
+    </div>
+    <div class="stat-pill ${err>0?'err':'ok'}">
+      <span class="val">${err}</span><span class="lbl">Degraded</span>
+    </div>
+    <div class="stat-pill ok">
+      <span class="val">${running}</span><span class="lbl">Containers Up</span>
+    </div>
+    <div class="stat-pill">
+      <span class="val">${containers.length}</span><span class="lbl">Total Containers</span>
+    </div>
+    <div class="stat-pill">
+      <span class="val" style="color:var(--muted);font-size:13px">${new Date(status.ts).toLocaleTimeString()}</span>
+      <span class="lbl">Last Poll</span>
+    </div>
+  `;
+}
+
+// Service cards
+function renderCards(status) {
+  const grid = document.getElementById("service-grid");
+  const keys = Object.keys(SERVICES_META);
+  grid.innerHTML = "";
+
+  for (const key of keys) {
+    const meta = SERVICES_META[key];
+    const svc = status.services[key];
+    if (!svc) continue;
+
+    const isOk = svc.ok;
+    const latency = svc.latencyMs != null ? svc.latencyMs + "ms" : "—";
+    const code = svc.statusCode || "—";
+    const history = svc.history || [];
+
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <div class="card-status-bar ${isOk?'ok':''}"></div>
+      <div class="card-head">
+        <span class="card-name">${meta.label}</span>
+        <span class="badge ${isOk?'ok':'err'}">${isOk?"UP":"DOWN"}</span>
+      </div>
+      <div class="card-meta">
+        <div class="meta-item"><span class="k">Latency</span><span class="v">${latency}</span></div>
+        <div class="meta-item"><span class="k">HTTP</span><span class="v">${code}</span></div>
+        <div class="meta-item"><span class="k">Port</span><span class="v">${meta.port||"ext"}</span></div>
+        <div class="meta-item"><span class="k">Group</span><span class="v">${meta.group}</span></div>
+      </div>
+      <div class="sparkline-wrap"><canvas class="spark" id="spark-${key}" height="36"></canvas></div>
+      ${svc.error?`<div class="tag-group" style="color:var(--err);margin-top:6px;font-size:11px">${svc.error}</div>`:""}
+    `;
+    grid.appendChild(card);
+    drawSparkline(`spark-${key}`, history, isOk);
+
+    if (!isOk) logEvent(`${meta.label} is DOWN${svc.error?" — "+svc.error:""}`, "err");
+  }
+}
+
+// Sparkline
+function drawSparkline(id, data, isOk) {
+  const canvas = document.getElementById(id);
+  if (!canvas) return;
+  const ctx = canvas.getContext("2d");
+  const W = canvas.offsetWidth || 240;
+  const H = 36;
+  canvas.width = W; canvas.height = H;
+  ctx.clearRect(0, 0, W, H);
+  if (!data || data.length < 2) { return; }
+  const max = Math.max(...data, 1);
+  const step = W / (data.length - 1);
+  ctx.beginPath();
+  data.forEach((v, i) => {
+    const x = i * step;
+    const y = H - (v / max) * (H - 4) - 2;
+    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+  });
+  ctx.strokeStyle = isOk ? "#22c55e88" : "#ef444488";
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+  // Fill
+  ctx.lineTo((data.length-1)*step, H);
+  ctx.lineTo(0, H);
+  ctx.closePath();
+  ctx.fillStyle = isOk ? "#22c55e18" : "#ef444418";
+  ctx.fill();
+}
+
+// Containers table
+function renderContainers(containers) {
+  const tbody = document.getElementById("container-tbody");
+  if (!Array.isArray(containers)) {
+    tbody.innerHTML = `<tr><td colspan="5" style="color:var(--err)">${containers?.error||"Docker socket unavailable"}</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = containers.map(c => {
+    const stateClass = c.state === "running" ? "running" : c.state === "exited" ? "exited" : "paused";
+    return `<tr>
+      <td><span class="dot ${stateClass}"></span>${c.name}</td>
+      <td style="color:var(--muted)">${c.image}</td>
+      <td><span class="badge ${c.state==="running"?"ok":"err"}">${c.state}</span></td>
+      <td style="color:var(--muted);font-size:11px">${c.status}</td>
+      <td style="color:var(--info)">${c.ports.length ? c.ports.join(", ") : "—"}</td>
+    </tr>`;
+  }).join("");
+}
+
+// Topology SVG
+function renderTopology(status) {
+  const svg = document.getElementById("topo-svg");
+
+  const NODES = [
+    { id:"laptop",   label:"Your Laptop",     x:80,  y:80,  color:"#38bdf8" },
+    { id:"onprem",   label:"On-Prem Server",  x:300, y:80,  color:"#a78bfa" },
+    { id:"vpnwatch", label:"VPNWatch :3225",  x:500, y:30,  color: status.services.vpnwatch?.ok?"#22c55e":"#ef4444" },
+    { id:"kalimcp",  label:"Kali MCP :8080",  x:500, y:80,  color: status.services.kaliMcp?.ok?"#22c55e":"#ef4444" },
+    { id:"jupyterm", label:"Jupyter MCP :8081",x:500,y:130, color: status.services.jupyterMcp?.ok?"#22c55e":"#ef4444" },
+    { id:"excali",   label:"Excalidraw :3333",x:680, y:30,  color: status.services.excalidraw?.ok?"#22c55e":"#ef4444" },
+    { id:"jupyter",  label:"vasi.ai Jupyter", x:680, y:100, color: status.services.jupyterExternal?.ok?"#22c55e":"#ef4444" },
+    { id:"hostinger",label:"Hostinger",        x:840, y:60,  color: status.services.hostinger?.ok?"#22c55e": status.services.hostinger===null?"#475569":"#ef4444" },
+  ];
+
+  const EDGES = [
+    ["laptop","onprem"],
+    ["onprem","vpnwatch"],["onprem","kalimcp"],["onprem","jupyterm"],
+    ["kalimcp","excali"],["jupyterm","jupyter"],
+    ["onprem","hostinger"],
+  ];
+
+  const nodeMap = Object.fromEntries(NODES.map(n => [n.id, n]));
+
+  let out = `<defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#475569"/>
+    </marker>
+  </defs>`;
+
+  // Edges
+  for (const [a,b] of EDGES) {
+    const na = nodeMap[a], nb = nodeMap[b];
+    if (!na||!nb) continue;
+    out += `<line x1="${na.x}" y1="${na.y}" x2="${nb.x}" y2="${nb.y}" stroke="#334155" stroke-width="1.5" marker-end="url(#arr)"/>`;
+  }
+
+  // Nodes
+  for (const n of NODES) {
+    const w = Math.max(n.label.length * 6.5 + 16, 80);
+    out += `
+      <rect x="${n.x - w/2}" y="${n.y-14}" width="${w}" height="28" rx="5"
+            fill="#1e293b" stroke="${n.color}" stroke-width="1.5"/>
+      <text x="${n.x}" y="${n.y+5}" text-anchor="middle" font-size="10"
+            font-family="Segoe UI,system-ui,sans-serif" fill="${n.color}">${n.label}</text>
+    `;
+  }
+
+  svg.innerHTML = out;
+}
+
+// Event log
+const LOG_MAX = 60;
+function logEvent(msg, cls) {
+  const ul = document.getElementById("event-log");
+  const li = document.createElement("li");
+  if (cls) li.className = cls;
+  const t = new Date().toLocaleTimeString();
+  li.innerHTML = `<span class="ts">[${t}]</span><span class="msg">${msg}</span>`;
+  ul.prepend(li);
+  while (ul.children.length > LOG_MAX) ul.removeChild(ul.lastChild);
+}
+
+logEvent("Dashboard loaded", "ok");
+</script>
+</body>
+</html>

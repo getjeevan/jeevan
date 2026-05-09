@@ -85,6 +85,29 @@ services:
       - kali-home:/home/operator
     command: ["sleep", "infinity"]
 
+  # ── Infra Dashboard — APM/ADM monitoring (:4000) ─────────────────────────
+  infra-dashboard:
+    build:
+      context: infra-dashboard
+      dockerfile: Dockerfile
+    container_name: infra-dashboard
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+      - JUPYTER_URL=https://65.95.15.70:32225
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN:-}
+      - HOSTINGER_URL=${HOSTINGER_URL:-}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:4000/api/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
   # ── Excalidraw — architecture diagram viewer (:3333) ──────────────────────
   excalidraw:
     image: nginx:alpine
