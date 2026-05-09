@@ -1,38 +1,106 @@
 version: '3.8'
 
 services:
+
+  # ── VPNWatch — Palo Alto VPN monitor (:3225) ───────────────────────────────
   vpnwatch:
     build:
       context: .
       dockerfile: Dockerfile
     container_name: vpnwatch
-    ports:
-      - "3225:3225"
+    restart: unless-stopped
+    network_mode: host
     environment:
       - NODE_ENV=production
       - PORT=3225
-    restart: unless-stopped
+    volumes:
+      - vpnwatch-data:/app/data
     healthcheck:
-      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3225/api/stats', (r) => process.exit(r.statusCode === 200 ? 0 : 1))"]
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3225/api/stats', r => process.exit(r.statusCode===200?0:1))"]
       interval: 30s
       timeout: 10s
       retries: 3
+      start_period: 15s
+
+  # ── Kali MCP — Kali tools over SSE (:8080) ────────────────────────────────
+  kali-mcp:
+    build:
+      context: kali-mcp
+      dockerfile: Dockerfile
+    image: kali-mcp:latest
+    container_name: kali-mcp
+    restart: unless-stopped
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    environment:
+      - MCP_PORT=8080
+    volumes:
+      - ./kali-mcp/workspace:/workspace
+    command: ["node", "/app/mcp-server.mjs"]
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8080/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
       start_period: 10s
 
-  docker-cleanup:
-    image: docker:24-cli
-    container_name: docker-cleanup
+  # ── Jupyter MCP — vasi.ai Jupyter over SSE (:8081) ────────────────────────
+  jupyter-mcp:
+    build:
+      context: kali-mcp
+      dockerfile: Dockerfile
+    image: kali-mcp:latest
+    container_name: jupyter-mcp
     restart: unless-stopped
+    network_mode: host
+    environment:
+      - JUPYTER_MCP_PORT=8081
+      - JUPYTER_URL=https://65.95.15.70:32225
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN:-}
+    command: ["node", "/app/jupyter-mcp-server.mjs"]
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8081/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    depends_on:
+      - kali-mcp
+
+  # ── Kali Linux OS — full toolset, interactive ─────────────────────────────
+  kali-os:
+    build:
+      context: kali-os
+      dockerfile: Dockerfile
+    container_name: kali-os
+    restart: unless-stopped
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
     volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-    entrypoint: ["/bin/sh", "-c"]
-    command:
-      - |
-        echo "Docker cleanup service started"
-        while true; do
-          echo "Running cleanup at $$(date)"
-          docker builder prune -a -f --filter "until=72h" 2>/dev/null || true
-          docker image prune -a -f --filter "until=168h" 2>/dev/null || true
-          echo "Cleanup complete. Sleeping for 24 hours..."
-          sleep 86400
-        done
+      - ./kali-os/workspace:/home/operator/workspace
+      - kali-home:/home/operator
+    command: ["sleep", "infinity"]
+
+  # ── Excalidraw — architecture diagram viewer (:3333) ──────────────────────
+  excalidraw:
+    image: nginx:alpine
+    container_name: excalidraw
+    restart: unless-stopped
+    ports:
+      - "3333:80"
+    volumes:
+      - ./excalidraw/index.html:/usr/share/nginx/html/index.html:ro
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:80"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+
+volumes:
+  vpnwatch-data:
+  kali-home:
