@@ -92,8 +92,7 @@ services:
       dockerfile: Dockerfile
     container_name: infra-dashboard
     restart: unless-stopped
-    ports:
-      - "4000:4000"
+    network_mode: host
     environment:
       - PORT=4000
       - JUPYTER_URL=https://65.95.15.70:32225
