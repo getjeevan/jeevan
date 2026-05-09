@@ -1,38 +1,37 @@
 FROM kalilinux/kali-rolling:latest
 
-# Install system dependencies
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Core system + Kali security tools
 RUN apt-get update && apt-get install -y \
-    curl \
-    git \
-    ripgrep \
-    nodejs \
-    npm \
-    python3 \
-    python3-pip \
-    nmap \
-    netcat-traditional \
-    net-tools \
-    wget \
-    unzip \
+    curl git wget vim tmux \
+    nodejs npm \
+    python3 python3-pip \
+    nmap netcat-traditional net-tools \
+    dnsutils whois traceroute \
+    tcpdump tshark \
+    hydra john \
+    sqlmap nikto \
+    gobuster dirb \
+    metasploit-framework \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Install Claude Code CLI and MCP filesystem server globally
-RUN npm install -g \
-    @anthropic-ai/claude-code \
-    @modelcontextprotocol/server-filesystem
+WORKDIR /app
 
-# Create non-root user (Claude Code requires non-root)
-RUN useradd -m -s /bin/bash claude && \
-    mkdir -p /home/claude
+# Install MCP server dependencies
+COPY package.json ./
+RUN npm install --omit=dev
 
-WORKDIR /workspace
-RUN chown -R claude:claude /workspace /home/claude
+# Copy MCP server
+COPY mcp-server.mjs ./
 
-COPY --chown=claude:claude entrypoint.sh /home/claude/entrypoint.sh
-RUN chmod +x /home/claude/entrypoint.sh
+# Entrypoint
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
-USER claude
-ENV PATH="/home/claude/.local/bin:/usr/local/bin:$PATH"
+# Workspace for shared files
+RUN mkdir -p /workspace
 
-ENTRYPOINT ["/home/claude/entrypoint.sh"]
-CMD ["bash"]
+EXPOSE 8080
+
+ENTRYPOINT ["/entrypoint.sh"]

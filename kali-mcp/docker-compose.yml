@@ -1,24 +1,27 @@
 version: '3.8'
 
 services:
-  kali-claude:
+  kali-mcp:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: kali-claude-mcp
+    image: kali-mcp:latest
+    container_name: kali-mcp
+    ports:
+      - "8080:8080"
     volumes:
-      # Workspace is shared with host AND persists .mcp.json across restarts
       - ./workspace:/workspace
-      # Persist Claude auth (~/.claude.json) across container restarts
-      - claude-home:/home/claude
     environment:
-      # Auth: Claude Code reads this automatically — no login needed
-      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-    stdin_open: true
-    tty: true
+      - MCP_PORT=8080
     restart: unless-stopped
+    # Host networking lets nmap/tcpdump reach real network interfaces
     network_mode: host
-
-volumes:
-  # Named volume keeps ~/.claude.json and ~/.claude/ alive across rebuilds
-  claude-home:
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:8080/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
