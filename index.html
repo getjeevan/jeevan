@@ -256,6 +256,101 @@
     .drink-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.55; margin-bottom: 1.2rem; }
     .drink-price { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; color: var(--teal); text-shadow: var(--teal-glow); }
 
+    /* ── ATMOSPHERE EXPANDED ── */
+    .venue-glass { padding: 1.8rem; }
+    .venue-glass-tag {
+      display: inline-block; font-size: 0.62rem; font-weight: 700; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--teal); border: 1px solid rgba(0,219,231,0.4);
+      padding: 0.2rem 0.55rem; margin-bottom: 0.7rem;
+    }
+    .venue-glass h3 { font-size: 2rem; margin-bottom: 0.4rem; }
+    .venue-glass .tagline { font-size: 0.82rem; color: var(--muted); margin-bottom: 1rem; line-height: 1.5; }
+    .venue-features { list-style: none; display: flex; flex-direction: column; gap: 0.35rem; margin-bottom: 1rem; }
+    .venue-features li { font-size: 0.78rem; color: var(--text); display: flex; align-items: center; gap: 0.5rem; }
+    .venue-features li::before { content: '—'; color: var(--teal); font-weight: 700; }
+    .venue-live-status {
+      display: flex; align-items: center; gap: 0.5rem;
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--teal);
+    }
+    .venue-live-status .dot {
+      width: 6px; height: 6px; border-radius: 50%; background: #00ff88;
+      box-shadow: 0 0 6px #00ff88; animation: pulse-dot 1.2s infinite;
+    }
+
+    /* ── REALTIME PULSE ── */
+    .realtime { background: var(--surface); }
+    .realtime-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; }
+    .rt-card {
+      background: var(--bg); border: 1px solid rgba(0,219,231,0.14);
+      padding: 1.8rem; position: relative; overflow: hidden;
+    }
+    .rt-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--teal), transparent);
+    }
+    .rt-label {
+      font-size: 0.65rem; font-weight: 700; letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--teal); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.5rem;
+    }
+    .rt-label .dot { width: 5px; height: 5px; border-radius: 50%; background: #00ff88; box-shadow: 0 0 5px #00ff88; animation: pulse-dot 1.4s infinite; }
+    .rt-big {
+      font-family: 'Bebas Neue', sans-serif; font-size: 3.5rem; letter-spacing: 0.04em;
+      color: #fff; line-height: 1; margin-bottom: 0.3rem;
+    }
+    .rt-big span { color: var(--teal); }
+    .rt-sub { font-size: 0.8rem; color: var(--muted); }
+    .rt-act-name {
+      font-family: 'Bebas Neue', sans-serif; font-size: 2rem; letter-spacing: 0.06em;
+      color: #fff; margin-bottom: 0.3rem;
+    }
+    .rt-act-genre { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.8rem; }
+    .rt-bar { height: 4px; background: rgba(255,255,255,0.08); margin-bottom: 0.4rem; overflow: hidden; }
+    .rt-bar-fill { height: 100%; background: linear-gradient(90deg, var(--teal), #00ff88); transition: width 1s linear; }
+    .rt-bar-time { font-size: 0.68rem; color: var(--muted); display: flex; justify-content: space-between; }
+
+    /* checkin feed */
+    .rt-feed { display: flex; flex-direction: column; gap: 0.7rem; max-height: 170px; overflow: hidden; }
+    .rt-feed-item {
+      display: flex; align-items: center; gap: 0.8rem;
+      font-size: 0.78rem; color: var(--muted);
+      animation: feed-in 0.4s ease;
+    }
+    @keyframes feed-in { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+    .rt-avatar {
+      width: 28px; height: 28px; border-radius: 50%;
+      background: var(--mahogany); border: 1px solid rgba(0,219,231,0.25);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; flex-shrink: 0;
+    }
+    .rt-feed-item strong { color: var(--text); }
+
+    /* countdown */
+    .countdown-row { display: flex; gap: 1.5rem; margin-top: 0.8rem; }
+    .cd-unit { text-align: center; }
+    .cd-num {
+      font-family: 'Bebas Neue', sans-serif; font-size: 2.4rem; color: var(--teal);
+      text-shadow: var(--teal-glow); line-height: 1; display: block;
+    }
+    .cd-label { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+
+    /* happy hour badge */
+    .happy-badge {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(0,219,231,0.1); border: 1px solid rgba(0,219,231,0.35);
+      color: var(--teal); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; padding: 0.35rem 0.8rem; margin-bottom: 0.9rem;
+    }
+    .happy-deals { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+    .happy-deals li { font-size: 0.82rem; color: var(--text); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.4rem; }
+    .happy-deals li span { color: var(--teal); font-weight: 700; }
+
+    /* capacity meter */
+    .capacity-bar-wrap { margin: 0.8rem 0; }
+    .capacity-label-row { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); margin-bottom: 0.4rem; }
+    .capacity-bar { height: 8px; background: rgba(255,255,255,0.08); overflow: hidden; }
+    .capacity-fill { height: 100%; transition: width 2s ease; }
+
     /* ── EVENTS TEASER ── */
     .events-teaser { background: var(--surface-hi); }
     .events-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
@@ -376,25 +471,112 @@
       <div class="venue-card">
         <div class="venue-card-bg bar"></div>
         <div class="venue-glass">
+          <div class="venue-glass-tag">Est. 2019 · Deep Ellum</div>
           <h3>THE BAR</h3>
-          <p>60+ craft spirits. Hand-carved ice. Neon-lit shelves.</p>
+          <p class="tagline">Hand-carved ice. Neon-lit shelves. Bartenders who know your name by round two.</p>
+          <ul class="venue-features">
+            <li>60+ craft spirits from 3 continents</li>
+            <li>Signature Bangalore-Dallas fusion cocktails</li>
+            <li>Whisky wall featuring rare Indian single malts</li>
+            <li>Craft draught — 12 rotating taps</li>
+          </ul>
+          <div class="venue-live-status"><span class="dot"></span> 3 bartenders on now</div>
         </div>
       </div>
       <div class="venue-card">
         <div class="venue-card-bg stage"></div>
         <div class="venue-glass">
+          <div class="venue-glass-tag">Live Every Night</div>
           <h3>THE STAGE</h3>
-          <p>Live acts every night. Fusion beats hit at 10.</p>
+          <p class="tagline">Where delta blues shakes hands with Carnatic riffs. No genre is safe here.</p>
+          <ul class="venue-features">
+            <li>Live acts 7 nights a week from 8PM</li>
+            <li>Original fusion artists — Dallas & Bangalore circuit</li>
+            <li>Tabla drops, 808s, and everything between</li>
+            <li>Open mic Wednesdays — sign up at the bar</li>
+          </ul>
+          <div class="venue-live-status"><span class="dot"></span> <span id="stage-now-label">Blues Hour — on stage now</span></div>
         </div>
       </div>
       <div class="venue-card">
         <div class="venue-card-bg vibe"></div>
         <div class="venue-glass">
+          <div class="venue-glass-tag">The Energy</div>
           <h3>THE VIBE</h3>
-          <p>Deep Ellum grit meets Bangalore pulse. Zero apologies.</p>
+          <p class="tagline">Deep Ellum grit meets Bangalore pulse. Industrial bones, neon soul, zero apologies.</p>
+          <ul class="venue-features">
+            <li>300-person capacity across two floors</li>
+            <li>Private booth reservations available</li>
+            <li>Rooftop terrace open Fri & Sat</li>
+            <li>Dress code: come as you are</li>
+          </ul>
+          <div class="venue-live-status"><span class="dot"></span> <span id="crowd-vibe-label">Filling up fast tonight</span></div>
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- REALTIME PULSE -->
+  <section class="realtime">
+    <div class="section-label">Right now at the tap</div>
+    <div class="section-title">TONIGHT'S PULSE</div>
+    <div class="realtime-grid">
+
+      <!-- Live Crowd Counter -->
+      <div class="rt-card">
+        <div class="rt-label"><span class="dot"></span> Live crowd count</div>
+        <div class="rt-big" id="crowd-count">—</div>
+        <div class="rt-sub">guests checked in tonight</div>
+        <div class="capacity-bar-wrap" style="margin-top:1rem;">
+          <div class="capacity-label-row"><span>Capacity</span><span id="capacity-pct">—</span></div>
+          <div class="capacity-bar"><div class="capacity-fill" id="capacity-bar-fill" style="width:0%"></div></div>
+        </div>
+      </div>
+
+      <!-- On Stage Now -->
+      <div class="rt-card">
+        <div class="rt-label"><span class="dot"></span> On stage now</div>
+        <div class="rt-act-name" id="act-name">BLUES HOUR</div>
+        <div class="rt-act-genre" id="act-genre">Delta Blues × Carnatic Fusion · Since 8:00 PM</div>
+        <div class="rt-bar"><div class="rt-bar-fill" id="act-progress" style="width:0%"></div></div>
+        <div class="rt-bar-time"><span id="act-elapsed">0 min</span><span id="act-duration">60 min set</span></div>
+      </div>
+
+      <!-- Next Up Countdown -->
+      <div class="rt-card">
+        <div class="rt-label"><span class="dot"></span> Next act in</div>
+        <div class="countdown-row">
+          <div class="cd-unit"><span class="cd-num" id="cd-h">00</span><span class="cd-label">hrs</span></div>
+          <div class="cd-unit"><span class="cd-num" id="cd-m">00</span><span class="cd-label">min</span></div>
+          <div class="cd-unit"><span class="cd-num" id="cd-s">00</span><span class="cd-label">sec</span></div>
+        </div>
+        <div style="margin-top:1rem;">
+          <div class="rt-sub" style="margin-bottom:0.3rem;">Coming up at 10:00 PM</div>
+          <div class="rt-act-name" style="font-size:1.4rem;">FUSION BEATS</div>
+          <div class="rt-act-genre">Electronic · Tabla · 808s</div>
+        </div>
+      </div>
+
+      <!-- Happy Hour Deals -->
+      <div class="rt-card">
+        <div class="rt-label"><span class="dot"></span> Active right now</div>
+        <div class="happy-badge">🍹 Happy Hour — Until 9PM</div>
+        <ul class="happy-deals">
+          <li>All draught beers <span>Buy 1 Get 1</span></li>
+          <li>Electric Chai Mule <span>$9 (was $15)</span></li>
+          <li>Bangalore Noir <span>$11 (was $16)</span></li>
+          <li>Whisky shots <span>Half price</span></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Live Check-in Feed -->
+    <div class="rt-card" style="grid-column:span 2;">
+      <div class="rt-label"><span class="dot"></span> Recent arrivals</div>
+      <div class="rt-feed" id="checkin-feed"></div>
+    </div>
+
   </section>
 
   <!-- VIDEO FEATURE -->
@@ -511,7 +693,101 @@
   </footer>
 
   <script>
-    // YouTube IFrame API — restart Gaana Gang video at 20s on every loop
+  // ── REALTIME PUB ACTIVITY ──────────────────────────────────────────────
+
+  const acts = [
+    { name: 'BLUES HOUR',    genre: 'Delta Blues × Carnatic Fusion',   start: 20*60, duration: 90*60 },
+    { name: 'FUSION BEATS',  genre: 'Electronic · Tabla · 808s',       start: 22*60, duration: 120*60 },
+    { name: 'JAZZ LATE NIGHT', genre: 'Jazz Trio · Improvised Fusion', start: 24*60, duration: 90*60 },
+  ];
+  const names = ['Priya','Arjun','Marcus','Keerthi','Jake','Divya','Tyler','Ananya','Carlos','Riya','Devon','Zara','Kiran','Lena'];
+  const actions = ['just arrived','checked in','joined the queue','walked in','just got here'];
+  const partySize = ['solo','with 2 others','with 3 others','with a group','& friends'];
+
+  function pad(n){ return String(n).padStart(2,'0'); }
+
+  // Simulated crowd: ramps up from 5PM, peaks around 11PM
+  function getCrowd() {
+    const h = new Date().getHours() + new Date().getMinutes()/60;
+    let base = 0;
+    if(h >= 17 && h < 23) base = Math.round(((h-17)/6)*280 + Math.random()*15 - 7);
+    else if(h >= 23) base = Math.round(280 - (h-23)*40 + Math.random()*10 - 5);
+    return Math.max(0, Math.min(300, base));
+  }
+
+  function updateCrowd() {
+    const c = getCrowd();
+    const pct = Math.round((c/300)*100);
+    document.getElementById('crowd-count').textContent = c;
+    document.getElementById('capacity-pct').textContent = pct + '% full';
+    const fill = document.getElementById('capacity-bar-fill');
+    const color = pct > 85 ? '#ff4040' : pct > 65 ? '#ffb400' : '#00dbe7';
+    fill.style.width = pct + '%';
+    fill.style.background = `linear-gradient(90deg, ${color}, #00ff88)`;
+    const label = pct > 85 ? 'Almost at capacity — book now!' : pct > 60 ? 'Filling up fast tonight' : pct > 30 ? 'Good crowd building up' : 'Early birds welcome';
+    const el = document.getElementById('crowd-vibe-label');
+    if(el) el.textContent = label;
+  }
+
+  // Act progress + countdown
+  function updateActs() {
+    const now = new Date();
+    const nowSec = now.getHours()*3600 + now.getMinutes()*60 + now.getSeconds();
+
+    let currentAct = null, nextAct = null;
+    for(let i = 0; i < acts.length; i++) {
+      const a = acts[i];
+      if(nowSec >= a.start && nowSec < a.start + a.duration) { currentAct = a; nextAct = acts[i+1]||null; break; }
+      if(nowSec < a.start) { nextAct = a; break; }
+    }
+
+    if(currentAct) {
+      const elapsed = nowSec - currentAct.start;
+      const pct = Math.min(100, Math.round((elapsed/currentAct.duration)*100));
+      document.getElementById('act-name').textContent = currentAct.name;
+      document.getElementById('act-genre').textContent = currentAct.genre + ' · Since ' + new Date(currentAct.start*1000).toISOString().substr(11,5).replace(/^0/,'');
+      document.getElementById('act-progress').style.width = pct + '%';
+      document.getElementById('act-elapsed').textContent = Math.floor(elapsed/60) + ' min in';
+      document.getElementById('act-duration').textContent = Math.floor(currentAct.duration/60) + ' min set';
+      const sl = document.getElementById('stage-now-label');
+      if(sl) sl.textContent = currentAct.name + ' — on stage now';
+    }
+
+    if(nextAct) {
+      let diff = nextAct.start - nowSec;
+      if(diff < 0) diff += 86400;
+      const h = Math.floor(diff/3600), m = Math.floor((diff%3600)/60), s = diff%60;
+      document.getElementById('cd-h').textContent = pad(h);
+      document.getElementById('cd-m').textContent = pad(m);
+      document.getElementById('cd-s').textContent = pad(s);
+    }
+  }
+
+  // Check-in feed
+  const feed = document.getElementById('checkin-feed');
+  function addCheckin() {
+    const n = names[Math.floor(Math.random()*names.length)];
+    const a = actions[Math.floor(Math.random()*actions.length)];
+    const p = partySize[Math.floor(Math.random()*partySize.length)];
+    const emoji = ['🎸','🥃','🎷','🔥','⚡','🌟'][Math.floor(Math.random()*6)];
+    const item = document.createElement('div');
+    item.className = 'rt-feed-item';
+    item.innerHTML = `<div class="rt-avatar">${emoji}</div><span><strong>${n}</strong> ${a} ${p} · just now</span>`;
+    feed.insertBefore(item, feed.firstChild);
+    if(feed.children.length > 5) feed.removeChild(feed.lastChild);
+  }
+
+  // Bootstrap
+  updateCrowd(); updateActs(); addCheckin();
+  setInterval(updateCrowd, 8000);
+  setInterval(updateActs, 1000);
+  setInterval(addCheckin, () => 4000 + Math.random()*6000, 5000);
+  // staggered check-ins
+  (function scheduleCheckin() {
+    setTimeout(() => { addCheckin(); scheduleCheckin(); }, 4000 + Math.random()*7000);
+  })();
+
+  // ── YOUTUBE IFRAME API — restart Gaana Gang video at 20s on every loop
     var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
     document.head.appendChild(tag);
