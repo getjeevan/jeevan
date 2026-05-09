@@ -5,14 +5,8 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-filesystem",
-        "/workspace"
-      ]
-    },
-    "kali-shell": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@anthropic-ai/mcp-server-bash"
+        "/workspace",
+        "/home/claude"
       ]
     }
   }
