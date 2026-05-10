@@ -21,7 +21,6 @@ data "coder_parameter" "github_token" {
   display_name = "GitHub Token"
   description  = "Personal access token for git push/pull. Create at github.com/settings/tokens (repo scope)."
   type         = "string"
-  sensitive    = true
   default      = ""
   mutable      = true
 }
@@ -31,7 +30,6 @@ data "coder_parameter" "anthropic_api_key" {
   display_name = "Anthropic API Key"
   description  = "API key for Claude Code AI assistant."
   type         = "string"
-  sensitive    = true
   default      = ""
   mutable      = true
 }
