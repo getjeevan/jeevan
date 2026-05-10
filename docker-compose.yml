@@ -40,7 +40,7 @@ services:
       - CODER_HTTP_ADDRESS=0.0.0.0:7080
       - CODER_ACCESS_URL=https://coder.asheindallas.com
       - CODER_WILDCARD_ACCESS_URL=*.coder.asheindallas.com
-      - CODER_PG_CONNECTION_URL=postgresql://coder:coderpass@localhost:5432/coder
+      - CODER_PG_CONNECTION_URL=postgresql://coder:coderpass@localhost:5432/coder?sslmode=disable
       - CODER_TELEMETRY_ENABLE=false
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
