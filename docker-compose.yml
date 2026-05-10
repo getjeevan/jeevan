@@ -10,6 +10,26 @@ version: '3.8'
 
 services:
 
+  # ── PostgreSQL — shared database (:5432) ──────────────────────────────────
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./setup/init-db.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
   # ── Coder — browser IDE + workspace orchestrator (:7080) ──────────────────
   coder:
     image: ghcr.io/coder/coder:latest
@@ -54,5 +74,6 @@ services:
       start_period: 15s
 
 volumes:
+  postgres-data:
   coder-data:
   vpnwatch-data:
