@@ -59,6 +59,9 @@ resource "coder_agent" "main" {
     #!/bin/bash
     set -e
 
+    # Fix home directory ownership (Docker volume starts as root)
+    sudo chown -R coder:coder /home/coder 2>/dev/null || true
+
     # Configure git identity
     git config --global user.name  "${data.coder_workspace_owner.me.full_name}"
     git config --global user.email "${data.coder_workspace_owner.me.email}"
