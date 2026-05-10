@@ -1,33 +1,51 @@
-import { 
-  type Firewall, 
-  type InsertFirewall, 
-  type VPNTunnel, 
-  type DashboardStats,
-} from "@shared/schema";
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
+import { join } from "path";
 import { randomUUID } from "crypto";
+import type { Firewall, InsertFirewall, VPNTunnel, DashboardStats } from "@shared/schema";
 import { pollFirewall } from "./paloalto-api";
+import type { IStorage } from "./storage";
 
-export interface IStorage {
-  getFirewalls(): Promise<Firewall[]>;
-  getFirewall(id: string): Promise<Firewall | undefined>;
-  createFirewall(firewall: InsertFirewall): Promise<Firewall>;
-  updateFirewall(id: string, firewall: Partial<InsertFirewall>): Promise<Firewall | undefined>;
-  deleteFirewall(id: string): Promise<boolean>;
-  getTunnels(): Promise<VPNTunnel[]>;
-  getTunnelsByFirewall(firewallId: string): Promise<VPNTunnel[]>;
-  setTunnels(firewallId: string, tunnels: VPNTunnel[]): Promise<void>;
-  getStats(): Promise<DashboardStats>;
-  refreshAll(): Promise<{ errors: string[] }>;
-  refreshFirewall(id: string): Promise<{ success: boolean; error?: string }>;
+interface PersistedData {
+  firewalls: Record<string, Firewall>;
 }
 
-export class MemStorage implements IStorage {
+export class FileStorage implements IStorage {
+  private dataFile: string;
   private firewalls: Map<string, Firewall>;
   private tunnels: Map<string, VPNTunnel[]>;
 
-  constructor() {
+  constructor(dataDir: string) {
+    mkdirSync(dataDir, { recursive: true });
+    this.dataFile = join(dataDir, "firewalls.json");
     this.firewalls = new Map();
     this.tunnels = new Map();
+    this.load();
+  }
+
+  private load(): void {
+    if (!existsSync(this.dataFile)) return;
+    try {
+      const raw = readFileSync(this.dataFile, "utf-8");
+      const data: PersistedData = JSON.parse(raw);
+      for (const [id, fw] of Object.entries(data.firewalls || {})) {
+        this.firewalls.set(id, fw);
+        this.tunnels.set(id, []);
+      }
+      console.log(`[FileStorage] Loaded ${this.firewalls.size} firewall(s) from ${this.dataFile}`);
+    } catch (err) {
+      console.error("[FileStorage] Failed to load data file:", err);
+    }
+  }
+
+  private save(): void {
+    try {
+      const data: PersistedData = {
+        firewalls: Object.fromEntries(this.firewalls),
+      };
+      writeFileSync(this.dataFile, JSON.stringify(data, null, 2), "utf-8");
+    } catch (err) {
+      console.error("[FileStorage] Failed to save data file:", err);
+    }
   }
 
   async getFirewalls(): Promise<Firewall[]> {
@@ -48,38 +66,35 @@ export class MemStorage implements IStorage {
     };
     this.firewalls.set(id, firewall);
     this.tunnels.set(id, []);
-    
+    this.save();
+
     this.refreshFirewall(id).catch((err) => {
       console.error(`Initial poll failed for ${firewall.name}:`, err);
     });
-    
+
     return firewall;
   }
 
   async updateFirewall(id: string, updates: Partial<InsertFirewall>): Promise<Firewall | undefined> {
     const existing = this.firewalls.get(id);
     if (!existing) return undefined;
-
-    const updated: Firewall = {
-      ...existing,
-      ...updates,
-    };
+    const updated: Firewall = { ...existing, ...updates };
     this.firewalls.set(id, updated);
+    this.save();
     return updated;
   }
 
   async deleteFirewall(id: string): Promise<boolean> {
     const deleted = this.firewalls.delete(id);
     this.tunnels.delete(id);
+    if (deleted) this.save();
     return deleted;
   }
 
   async getTunnels(): Promise<VPNTunnel[]> {
-    const allTunnels: VPNTunnel[] = [];
-    Array.from(this.tunnels.values()).forEach((tunnelList) => {
-      allTunnels.push(...tunnelList);
-    });
-    return allTunnels;
+    const all: VPNTunnel[] = [];
+    for (const list of this.tunnels.values()) all.push(...list);
+    return all;
   }
 
   async getTunnelsByFirewall(firewallId: string): Promise<VPNTunnel[]> {
@@ -93,7 +108,6 @@ export class MemStorage implements IStorage {
   async getStats(): Promise<DashboardStats> {
     const allTunnels = await this.getTunnels();
     const firewalls = await this.getFirewalls();
-
     return {
       totalTunnels: allTunnels.length,
       upTunnels: allTunnels.filter((t) => t.ipsecState === "up").length,
@@ -106,21 +120,18 @@ export class MemStorage implements IStorage {
 
   async refreshFirewall(id: string): Promise<{ success: boolean; error?: string }> {
     const firewall = this.firewalls.get(id);
-    if (!firewall) {
-      return { success: false, error: "Firewall not found" };
-    }
+    if (!firewall) return { success: false, error: "Firewall not found" };
 
     console.log(`Polling firewall: ${firewall.name} (${firewall.mgmtIp})`);
-    
     try {
       const result = await pollFirewall(firewall);
-      
-      const updatedFirewall: Firewall = {
+      const updated: Firewall = {
         ...firewall,
         isConnected: result.isConnected,
         lastPolled: new Date().toISOString(),
       };
-      this.firewalls.set(id, updatedFirewall);
+      this.firewalls.set(id, updated);
+      this.save();
 
       if (result.isConnected) {
         this.tunnels.set(id, result.tunnels);
@@ -131,13 +142,13 @@ export class MemStorage implements IStorage {
         return { success: false, error: result.error };
       }
     } catch (error: any) {
-      const updatedFirewall: Firewall = {
+      const updated: Firewall = {
         ...firewall,
         isConnected: false,
         lastPolled: new Date().toISOString(),
       };
-      this.firewalls.set(id, updatedFirewall);
-      
+      this.firewalls.set(id, updated);
+      this.save();
       console.error(`Error polling firewall ${firewall.name}:`, error.message);
       return { success: false, error: error.message };
     }
@@ -145,28 +156,12 @@ export class MemStorage implements IStorage {
 
   async refreshAll(): Promise<{ errors: string[] }> {
     const errors: string[] = [];
-    const firewallEntries = Array.from(this.firewalls.entries());
-    
-    for (const [id, firewall] of firewallEntries) {
+    for (const [id, firewall] of this.firewalls.entries()) {
       const result = await this.refreshFirewall(id);
       if (!result.success && result.error) {
         errors.push(`${firewall.name}: ${result.error}`);
       }
     }
-
     return { errors };
   }
 }
-
-import { FileStorage } from "./file-storage";
-
-function createStorage(): IStorage {
-  const dataDir = process.env.DATA_DIR;
-  if (dataDir) {
-    console.log(`[storage] Using persistent FileStorage at ${dataDir}`);
-    return new FileStorage(dataDir);
-  }
-  return new MemStorage();
-}
-
-export const storage = createStorage();

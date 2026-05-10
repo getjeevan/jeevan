@@ -50,6 +50,49 @@ docker stop vpnwatch && docker rm vpnwatch
 |----------|---------|-------------|
 | `PORT` | `3225` | HTTP port the application listens on |
 | `NODE_ENV` | `production` | Node.js environment mode |
+| `DATA_DIR` | `/app/data` | Directory for persistent firewall configuration storage |
+
+### Persistent Storage
+
+Firewall configurations are stored in `$DATA_DIR/firewalls.json` inside the container.  
+The `docker-compose.yml` mounts a named Docker volume (`vpnwatch-data`) to `/app/data` so
+configurations survive container restarts and upgrades.
+
+**With Docker Compose (recommended)** — volume is managed automatically:
+
+```bash
+docker compose up -d
+```
+
+**With Docker CLI** — bind-mount a host directory:
+
+```bash
+mkdir -p /opt/vpnwatch/data
+
+docker run -d \
+  --name vpnwatch \
+  -p 3225:3225 \
+  -e NODE_ENV=production \
+  -e DATA_DIR=/app/data \
+  -v /opt/vpnwatch/data:/app/data \
+  --restart unless-stopped \
+  vpnwatch:latest
+```
+
+**With Podman on RHEL** — add the `:Z` SELinux label:
+
+```bash
+mkdir -p /opt/vpnwatch/data
+
+podman run -d \
+  --name vpnwatch \
+  -p 3225:3225 \
+  -e DATA_DIR=/app/data \
+  -v /opt/vpnwatch/data:/app/data:Z \
+  vpnwatch:latest
+```
+
+To back up or migrate your firewall list, copy `firewalls.json` from the data directory.
 
 ### Changing the Port
 
@@ -84,7 +127,8 @@ If you mount volumes on RHEL with SELinux enabled, add the `:Z` flag:
 docker run -d \
   --name vpnwatch \
   -p 3225:3225 \
-  -v /path/to/config:/app/config:Z \
+  -e DATA_DIR=/app/data \
+  -v /opt/vpnwatch/data:/app/data:Z \
   vpnwatch:latest
 ```
 

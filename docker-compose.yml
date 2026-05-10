@@ -11,6 +11,9 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=3225
+      - DATA_DIR=/app/data
+    volumes:
+      - vpnwatch-data:/app/data
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "node", "-e", "require('http').get('http://localhost:3225/api/stats', (r) => process.exit(r.statusCode === 200 ? 0 : 1))"]
@@ -36,3 +39,6 @@ services:
           echo "Cleanup complete. Sleeping for 24 hours..."
           sleep 86400
         done
+
+volumes:
+  vpnwatch-data:

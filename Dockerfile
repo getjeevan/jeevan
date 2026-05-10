@@ -32,6 +32,10 @@ COPY --from=builder /app/dist ./dist
 # Set environment variables
 ENV NODE_ENV=production
 ENV PORT=3225
+ENV DATA_DIR=/app/data
+
+# Create data directory for persistent storage
+RUN mkdir -p /app/data
 
 # Expose the application port
 EXPOSE 3225
